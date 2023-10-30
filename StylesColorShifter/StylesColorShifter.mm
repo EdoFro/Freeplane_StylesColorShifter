@@ -1,6 +1,6 @@
 <map version="freeplane 1.11.5">
 <!--To view this file, download free mind mapping software Freeplane from https://www.freeplane.org -->
-<node TEXT="StylesColorShifter" LOCALIZED_STYLE_REF="AutomaticLayout.level.root" FOLDED="false" ID="ID_1090958577" CREATED="1409300609620" MODIFIED="1698679817571">
+<node TEXT="StylesColorShifter" LOCALIZED_STYLE_REF="AutomaticLayout.level.root" ID="ID_1090958577" LINK="https://github.com/EdoFro/Freeplane_StylesColorShifter">
 <hook NAME="accessories/plugins/AutomaticLayout.properties" VALUE="ALL"/>
 <font BOLD="true"/>
 <hook NAME="MapStyle" background="#002b36" zoom="0.826">
@@ -162,7 +162,7 @@
   </body>
 </html>
 </richcontent>
-<node TEXT="description" POSITION="top_or_left" ID="ID_1305264076" CREATED="1698679698810" MODIFIED="1698679698810"><richcontent TYPE="NOTE">
+<node TEXT="description" POSITION="top_or_left" ID="ID_1305264076"><richcontent TYPE="NOTE">
 <html>
   <head>
     
@@ -180,9 +180,9 @@
   </body>
 </html>
 </richcontent>
-<node TEXT="The idea of this add-on is that it allows to &quot;shift&quot; the colors of the template to adapt the mind map to the user&apos;s taste and/or to the style required by the mindmaps content." ID="ID_1948288289" CREATED="1698679915813" MODIFIED="1698680260755"/>
+<node TEXT="The idea of this add-on is that it allows to &quot;shift&quot; the colors of the template to adapt the mind map to the user&apos;s taste and/or to the style required by the mindmaps content." ID="ID_1948288289"/>
 </node>
-<node TEXT="changes" POSITION="top_or_left" ID="ID_1079303983" CREATED="1698679698810" MODIFIED="1698679698825"><richcontent TYPE="NOTE">
+<node TEXT="changes" POSITION="top_or_left" ID="ID_1079303983"><richcontent TYPE="NOTE">
 <html>
   <head>
     
@@ -194,8 +194,11 @@
   </body>
 </html>
 </richcontent>
+<node TEXT="v0.0.1" ID="ID_1626673153">
+<node TEXT="initial release" ID="ID_1552678462"/>
 </node>
-<node TEXT="license" FOLDED="true" POSITION="top_or_left" ID="ID_1449574501" CREATED="1698679698825" MODIFIED="1698679698825"><richcontent TYPE="NOTE">
+</node>
+<node TEXT="license" POSITION="top_or_left" ID="ID_1449574501"><richcontent TYPE="NOTE">
 <html>
   <head>
     
@@ -213,9 +216,9 @@
   </body>
 </html>
 </richcontent>
-<node TEXT="&#xa;This add-on is free software: you can redistribute it and/or modify&#xa;it under the terms of the GNU General Public License as published by&#xa;the Free Software Foundation, either version 2 of the License, or&#xa;(at your option) any later version.&#xa;&#xa;This program is distributed in the hope that it will be useful,&#xa;but WITHOUT ANY WARRANTY; without even the implied warranty of&#xa;MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the&#xa;GNU General Public License for more details.&#xa;" ID="ID_1121153077" CREATED="1698679698825" MODIFIED="1698679698825"/>
+<node TEXT="MIT License&#xa;&#xa;Copyright (c) 2023 Eduardo Frohlich.&#xa;&#xa;Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the &quot;Software&quot;), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:&#xa;&#xa;The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.&#xa;&#xa;THE SOFTWARE IS PROVIDED &quot;AS IS&quot;, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE." ID="ID_1254344993"/>
 </node>
-<node TEXT="preferences.xml" POSITION="top_or_left" ID="ID_159971938" CREATED="1698679698841" MODIFIED="1698679698841"><richcontent TYPE="NOTE">
+<node TEXT="preferences.xml" POSITION="top_or_left" ID="ID_159971938"><richcontent TYPE="NOTE">
 <html>
   <head>
     
@@ -324,7 +327,7 @@
 </html>
 </richcontent>
 </node>
-<node TEXT="default.properties" POSITION="top_or_left" ID="ID_839369467" CREATED="1698679698841" MODIFIED="1698679698841"><richcontent TYPE="NOTE">
+<node TEXT="default.properties" POSITION="top_or_left" ID="ID_839369467"><richcontent TYPE="NOTE">
 <html>
   <head>
     
@@ -345,7 +348,7 @@
 </html>
 </richcontent>
 </node>
-<node TEXT="translations" POSITION="top_or_left" ID="ID_594190595" CREATED="1698679698841" MODIFIED="1698679698857"><richcontent TYPE="NOTE">
+<node TEXT="translations" POSITION="top_or_left" ID="ID_594190595"><richcontent TYPE="NOTE">
 <html>
   <head>
     
@@ -377,12 +380,12 @@
   </body>
 </html>
 </richcontent>
-<node TEXT="en" POSITION="top_or_left" ID="ID_346064094" CREATED="1698679698857" MODIFIED="1698679698873">
+<node TEXT="en" POSITION="top_or_left" ID="ID_346064094">
 <attribute_layout NAME_WIDTH="96 pt" VALUE_WIDTH="104.25 pt"/>
 <attribute NAME="addons.${name}" VALUE="StylesColorShifter"/>
 </node>
 </node>
-<node TEXT="deinstall" POSITION="top_or_left" ID="ID_66645068" CREATED="1698679698873" MODIFIED="1698679698889"><richcontent TYPE="NOTE">
+<node TEXT="deinstall" POSITION="top_or_left" ID="ID_66645068"><richcontent TYPE="NOTE">
 <html>
   <head>
     
@@ -396,7 +399,7 @@
 </richcontent>
 <attribute NAME="delete" VALUE="${installationbase}/addons/${name}.script.xml"/>
 </node>
-<node TEXT="scripts" POSITION="bottom_or_right" ID="ID_810469296" CREATED="1698679698889" MODIFIED="1698679698889"><richcontent TYPE="NOTE">
+<node TEXT="scripts" POSITION="bottom_or_right" ID="ID_810469296"><richcontent TYPE="NOTE">
 <html>
   <head>
     
@@ -514,7 +517,7 @@
 </html>
 </richcontent>
 </node>
-<node TEXT="lib" POSITION="bottom_or_right" ID="ID_1236497070" CREATED="1698679698904" MODIFIED="1698679698904"><richcontent TYPE="NOTE">
+<node TEXT="lib" POSITION="bottom_or_right" ID="ID_1236497070"><richcontent TYPE="NOTE">
 <html>
   <head>
     
@@ -551,7 +554,7 @@
 </html>
 </richcontent>
 </node>
-<node TEXT="zips" POSITION="bottom_or_right" ID="ID_514795073" CREATED="1698679698904" MODIFIED="1698679698920"><richcontent TYPE="NOTE">
+<node TEXT="zips" POSITION="bottom_or_right" ID="ID_514795073"><richcontent TYPE="NOTE">
 <html>
   <head>
     
@@ -587,11 +590,11 @@
   </body>
 </html>
 </richcontent>
-<node TEXT="doc" ID="ID_1760264749" CREATED="1698679698920" MODIFIED="1698679698920"/>
-<node TEXT="icons" ID="ID_1130177956" CREATED="1698679698920" MODIFIED="1698679698920"/>
-<node TEXT="templates" ID="ID_1338591809" CREATED="1698679698920" MODIFIED="1698679698920"/>
+<node TEXT="doc" ID="ID_1760264749"/>
+<node TEXT="icons" ID="ID_1130177956"/>
+<node TEXT="templates" ID="ID_1338591809"/>
 </node>
-<node TEXT="images" POSITION="bottom_or_right" ID="ID_1495834180" CREATED="1698679698920" MODIFIED="1698679698920"><richcontent TYPE="NOTE">
+<node TEXT="images" POSITION="bottom_or_right" ID="ID_1495834180"><richcontent TYPE="NOTE">
 <html>
   <head>
     
@@ -624,7 +627,7 @@
 </html>
 </richcontent>
 </node>
-<node TEXT="actions" POSITION="bottom_or_right" ID="ID_793423037" CREATED="1698679698920" MODIFIED="1698679698920"><richcontent TYPE="NOTE">
+<node TEXT="actions" POSITION="bottom_or_right" ID="ID_793423037"><richcontent TYPE="NOTE">
 <html>
   <head>
     
@@ -634,10 +637,10 @@
   </body>
 </html>
 </richcontent>
-<node TEXT="Build add-on" ID="ID_1686038179" CREATED="1698679698936" MODIFIED="1698679698936" LINK="menuitem:_addons.devtools.checkAddOn_on_single_node"/>
-<node TEXT="Package add-on for publication" ID="ID_1281222186" CREATED="1698679698936" MODIFIED="1698679698936" LINK="menuitem:_addons.devtools.releaseAddOn_on_single_node"/>
-<node TEXT="Export Translations" ID="ID_990812433" CREATED="1698679698936" MODIFIED="1698679698936" LINK="menuitem:_addons.devtools.exportTranslations_on_single_node"/>
-<node TEXT="Import Translations" ID="ID_327316801" CREATED="1698679698936" MODIFIED="1698679698936" LINK="menuitem:_addons.devtools.importTranslations_on_single_node"/>
+<node TEXT="Build add-on" ID="ID_1686038179" LINK="menuitem:_addons.devtools.checkAddOn_on_single_node"/>
+<node TEXT="Package add-on for publication" ID="ID_1281222186" LINK="menuitem:_addons.devtools.releaseAddOn_on_single_node"/>
+<node TEXT="Export Translations" ID="ID_990812433" LINK="menuitem:_addons.devtools.exportTranslations_on_single_node"/>
+<node TEXT="Import Translations" ID="ID_327316801" LINK="menuitem:_addons.devtools.importTranslations_on_single_node"/>
 </node>
 </node>
 </map>

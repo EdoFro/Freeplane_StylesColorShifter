@@ -1,7 +1,7 @@
 <map version="freeplane 1.11.5">
 <!--To view this file, download free mind mapping software Freeplane from https://www.freeplane.org -->
 <attribute_registry SHOW_ATTRIBUTES="selected"/>
-<node TEXT="Freeplane_StylesColorShifter" STYLE_REF="file_folder" FOLDED="false" ID="ID_1541123012" CREATED="1618682962543" MODIFIED="1698676297590" LINK="../../OneDrive/Documentos/Mochila/Freeplane/ScriptsEnComputadorYDesarrollosEdo%20-%20mochila.mm"><hook NAME="MapStyle" background="#f9f9f8">
+<node TEXT="Freeplane_StylesColorShifter" STYLE_REF="file_folder" FOLDED="false" ID="ID_1541123012" LINK="../../OneDrive/Documentos/Mochila/Freeplane/ScriptsEnComputadorYDesarrollosEdo%20-%20mochila.mm"><hook NAME="MapStyle" background="#f9f9f8">
     <conditional_styles>
         <conditional_style ACTIVE="true" STYLE_REF="customMenuPackage" LAST="false">
             <attribute_exists_condition ATTRIBUTE="tbActions"/>
@@ -50,7 +50,7 @@
             <attribute_contains_condition ATTRIBUTE="modifiedFile" VALUE="true"/>
         </conditional_style>
     </conditional_styles>
-    <properties edgeColorConfiguration="#808080ff,#ff0000ff,#0000ffff,#00ff00ff,#ff00ffff,#00ffffff,#7c0000ff,#00007cff,#007c00ff,#7c007cff,#007c7cff,#7c7c00ff" mapUsesOwnSaveOptions="true" BookmarksKeys="{}" followedTemplateLocation="template:/DFGHI%20Proyecto-Groovy-Tareas-MDI-menuButton%20(vis01).mm" pruebaDiccionario="ID_311366985|:|idDictionary|-|ID_323296041|:|ToM Actions|-|" show_icon_for_attributes="true" show_notes_in_map="false" save_modification_times="true" save_last_visited_node="default" show_note_icons="true" MDI_template="v0.0.13" mdhFreeMindmapPath="hhgf" save_folding="save_folding_if_map_is_changed" followedMapLastTime="1661362125221" fit_to_viewport="false"/>
+    <properties edgeColorConfiguration="#808080ff,#ff0000ff,#0000ffff,#00ff00ff,#ff00ffff,#00ffffff,#7c0000ff,#00007cff,#007c00ff,#7c007cff,#007c7cff,#7c7c00ff" mapUsesOwnSaveOptions="true" BookmarksKeys="{}" followedTemplateLocation="template:/DFGHI%20Proyecto-Groovy-Tareas-MDI-menuButton%20(vis01).mm" pruebaDiccionario="ID_311366985|:|idDictionary|-|ID_323296041|:|ToM Actions|-|" show_icon_for_attributes="true" show_notes_in_map="false" save_modification_times="false" save_last_visited_node="default" show_note_icons="true" MDI_template="v0.0.13" mdhFreeMindmapPath="hhgf" save_folding="save_folding_if_map_is_changed" followedMapLastTime="1661362125221" fit_to_viewport="false"/>
 
 <map_styles>
 <stylenode LOCALIZED_TEXT="styles.root_node" ID="ID_118736178" STYLE="oval" UNIFORM_SHAPE="true" VGAP_QUANTITY="24 pt">
@@ -287,46 +287,46 @@ blockquote {
 </stylenode>
 </map_styles>
 </hook>
-<node TEXT="designing" FOLDED="true" ID="ID_829143723" CREATED="1698676456809" MODIFIED="1698676479617">
-<node TEXT="idea" ID="ID_1523325247" CREATED="1692286179044" MODIFIED="1692286182334">
-<node TEXT="en base al stylesMap" ID="ID_292759776" CREATED="1692286182340" MODIFIED="1692286199870"/>
-<node TEXT="cambia los colores de los estilos" ID="ID_1443497310" CREATED="1692286213746" MODIFIED="1692286223804">
-<node TEXT="cambiando el ángulo de la rueda de color (HUE)" ID="ID_1731615585" CREATED="1692286225301" MODIFIED="1692286244973"/>
-<node TEXT="cambiando la saturación del color (en %)" ID="ID_1392807847" CREATED="1692286245498" MODIFIED="1692286333456"/>
-<node TEXT="cambiando el brillo" ID="ID_1098420549" CREATED="1692286276446" MODIFIED="1692286289408">
-<node TEXT="cambiando la distancia desde el centro con un factor" ID="ID_1346485063" CREATED="1692286380441" MODIFIED="1692286415280"/>
+<node TEXT="designing" FOLDED="true" ID="ID_829143723">
+<node TEXT="idea" ID="ID_1523325247">
+<node TEXT="en base al stylesMap" ID="ID_292759776"/>
+<node TEXT="cambia los colores de los estilos" ID="ID_1443497310">
+<node TEXT="cambiando el ángulo de la rueda de color (HUE)" ID="ID_1731615585"/>
+<node TEXT="cambiando la saturación del color (en %)" ID="ID_1392807847"/>
+<node TEXT="cambiando el brillo" ID="ID_1098420549">
+<node TEXT="cambiando la distancia desde el centro con un factor" ID="ID_1346485063"/>
 </node>
 </node>
-<node TEXT="Lógica" ID="ID_1977130398" CREATED="1692800889430" MODIFIED="1692800894834">
-<node TEXT="crea rama con nodos representando los StyleNodes" ID="ID_1154608930" CREATED="1692800896634" MODIFIED="1692800937276">
-<node TEXT="usuario puede eliminar nodos que representan estilos que no desea cambiar" ID="ID_1534772244" CREATED="1692801071784" MODIFIED="1692801098212"/>
-<node TEXT="si el usuario cambia texto de nodos o agrega nodos adicionales, esos nodos son ignorados" ID="ID_1392538311" CREATED="1692801107613" MODIFIED="1692801140200"/>
+<node TEXT="Lógica" ID="ID_1977130398">
+<node TEXT="crea rama con nodos representando los StyleNodes" ID="ID_1154608930">
+<node TEXT="usuario puede eliminar nodos que representan estilos que no desea cambiar" ID="ID_1534772244"/>
+<node TEXT="si el usuario cambia texto de nodos o agrega nodos adicionales, esos nodos son ignorados" ID="ID_1392538311"/>
 </node>
-<node TEXT="abre dialogo para cambiar colores" ID="ID_334332212" CREATED="1692800939549" MODIFIED="1692800973732">
-<node TEXT="al cargar el color picker muestra el color del background del estilo seleccionado" ID="ID_1563197344" CREATED="1692801158507" MODIFIED="1692801189185"/>
-<node TEXT="al presionar preview muestra los cambios en los nodos del mapa" ID="ID_1517302675" CREATED="1692800973748" MODIFIED="1692801019114"/>
-<node TEXT="al presionar apply cambia los estilos del mapa" ID="ID_577560833" CREATED="1692801020384" MODIFIED="1692801045096">
-<node TEXT="sólo de los nodos que estaban en la rama preview" ID="ID_1179880342" CREATED="1692801045503" MODIFIED="1692801068161"/>
-</node>
-</node>
+<node TEXT="abre dialogo para cambiar colores" ID="ID_334332212">
+<node TEXT="al cargar el color picker muestra el color del background del estilo seleccionado" ID="ID_1563197344"/>
+<node TEXT="al presionar preview muestra los cambios en los nodos del mapa" ID="ID_1517302675"/>
+<node TEXT="al presionar apply cambia los estilos del mapa" ID="ID_577560833">
+<node TEXT="sólo de los nodos que estaban en la rama preview" ID="ID_1179880342"/>
 </node>
 </node>
-<node TEXT="fuentes de info" ID="ID_1256876734" CREATED="1692286484701" MODIFIED="1692286491624">
-<node TEXT="manejo de colores" ID="ID_230606224" CREATED="1692286492529" MODIFIED="1692286497469">
-<node TEXT="https://stackoverflow.com/questions/2997656/how-can-i-use-the-hsl-colorspace-in-java" POSITION="bottom_or_right" ID="ID_457627158" CREATED="1692286512850" MODIFIED="1692286512850" LINK="https://stackoverflow.com/questions/2997656/how-can-i-use-the-hsl-colorspace-in-java"/>
-<node TEXT="" POSITION="bottom_or_right" ID="ID_816918198" CREATED="1692297895578" MODIFIED="1692297895578">
+</node>
+</node>
+<node TEXT="fuentes de info" ID="ID_1256876734">
+<node TEXT="manejo de colores" ID="ID_230606224">
+<node TEXT="https://stackoverflow.com/questions/2997656/how-can-i-use-the-hsl-colorspace-in-java" POSITION="bottom_or_right" ID="ID_457627158" LINK="https://stackoverflow.com/questions/2997656/how-can-i-use-the-hsl-colorspace-in-java"/>
+<node TEXT="" POSITION="bottom_or_right" ID="ID_816918198">
 <hook NAME="FirstGroupNode"/>
 </node>
-<node TEXT="http://www.camick.com/java/source/HSLColor.java" POSITION="bottom_or_right" ID="ID_1990288543" CREATED="1692286503845" MODIFIED="1692286503845" LINK="http://www.camick.com/java/source/HSLColor.java"/>
-<node TEXT="https://gist.github.com/EdoFro/afaf50b44fe9a8aea7f56371b886ca11" POSITION="bottom_or_right" ID="ID_1930162124" CREATED="1692286700848" MODIFIED="1692286700848" LINK="https://gist.github.com/EdoFro/afaf50b44fe9a8aea7f56371b886ca11"/>
-<node TEXT="" POSITION="bottom_or_right" ID="ID_681610039" CREATED="1692297895555" MODIFIED="1692297895571">
+<node TEXT="http://www.camick.com/java/source/HSLColor.java" POSITION="bottom_or_right" ID="ID_1990288543" LINK="http://www.camick.com/java/source/HSLColor.java"/>
+<node TEXT="https://gist.github.com/EdoFro/afaf50b44fe9a8aea7f56371b886ca11" POSITION="bottom_or_right" ID="ID_1930162124" LINK="https://gist.github.com/EdoFro/afaf50b44fe9a8aea7f56371b886ca11"/>
+<node TEXT="" POSITION="bottom_or_right" ID="ID_681610039">
 <hook NAME="SummaryNode"/>
 <hook NAME="AlwaysUnfoldedNode"/>
-<node TEXT="son lo mismo" ID="ID_74083173" CREATED="1692297895588" MODIFIED="1698676457156">
+<node TEXT="son lo mismo" ID="ID_74083173">
 <arrowlink DESTINATION="ID_967367598"/>
 </node>
 </node>
-<node TEXT="HSLColor.groovy" POSITION="bottom_or_right" ID="ID_967367598" CREATED="1692297846411" MODIFIED="1698676457172">
+<node TEXT="HSLColor.groovy" POSITION="bottom_or_right" ID="ID_967367598">
 <arrowlink DESTINATION="ID_1223904888" STARTINCLINATION="-67.5 pt;0 pt;" ENDINCLINATION="16.5 pt;-23.25 pt;"/>
 <richcontent TYPE="NOTE">
 <html>
@@ -1688,8 +1688,8 @@ blockquote {
 </node>
 </node>
 </node>
-<node TEXT="tests" STYLE_REF="pendingTask" ID="ID_1223904888" CREATED="1692288058962" MODIFIED="1692297434638">
-<node TEXT="test: genera muestrario de cambios hechos con HSLColor" ID="ID_1535166099" CREATED="1692288062561" MODIFIED="1692657255077"><richcontent TYPE="DETAILS">
+<node TEXT="tests" STYLE_REF="pendingTask" ID="ID_1223904888">
+<node TEXT="test: genera muestrario de cambios hechos con HSLColor" ID="ID_1535166099"><richcontent TYPE="DETAILS">
 <html>
   <head>
     
@@ -1701,11 +1701,11 @@ blockquote {
   </body>
 </html></richcontent>
 <attribute NAME="script1" VALUE="//import com.camick.HSLColor&#xa;import java.awt.Color&#xa;import java.awt.Dimension&#xa;import javax.swing.JPanel&#xa;import javax.swing.JLabel&#xa;import javax.swing.BoxLayout&#xa;&#xa;def panel = new JPanel()&#xa;panel.setLayout(new BoxLayout(panel, BoxLayout.PAGE_AXIS))&#xa;&#xa;def iniColor = Color.orange&#xa;    def p1 = new JPanel()&#xa;    p1.preferredSize = new Dimension(100,20)&#xa;    p1.background = iniColor&#xa;    panel.add(p1)&#xa;&#xa;def myColor = new HSLColor(iniColor)&#xa;&#xa;def panelH = new JPanel()&#xa;panelH.add(new JLabel(&apos;adjustHue                &apos;))&#xa;36.times{i -&gt;&#xa;    def p = new JPanel()&#xa;    p.preferredSize = new Dimension(20,20)&#xa;    p.background = myColor.adjustHue((float) ((myColor.hsl[0] + (i * 10f))%360f))&#xa;    panelH.add(p)&#xa;}&#xa;panel.add(panelH)&#xa;&#xa;&#xa;def panelComp = new JPanel()&#xa;panelComp.add(new JLabel(&apos;getComplementary()&apos;))&#xa;36.times{i -&gt;&#xa;    def p = new JPanel()&#xa;    p.preferredSize = new Dimension(20,20)&#xa;    p.background = new HSLColor(myColor.adjustHue((float) ((myColor.hsl[0] + (i * 10f))%360f))).getComplementary()&#xa;    panelComp.add(p)&#xa;}&#xa;panel.add(panelComp)&#xa;&#xa;def panelL = new JPanel()&#xa;panelL.add(new JLabel(&apos;adjustLuminance&apos;))&#xa;20.times{i -&gt;&#xa;    def p = new JPanel()&#xa;    p.preferredSize = new Dimension(20,20)&#xa;    p.background = myColor.adjustLuminance((float)(i * 5f))&#xa;    panelL.add(p)&#xa;}&#xa;panel.add(panelL)&#xa;&#xa;def panelSat = new JPanel()&#xa;panelSat.add(new JLabel(&apos;adjustSaturation &apos;))&#xa;20.times{i -&gt;&#xa;    def p = new JPanel()&#xa;    p.preferredSize = new Dimension(20,20)&#xa;    p.background = myColor.adjustSaturation((float)(i * 5f))&#xa;    panelSat.add(p)&#xa;}&#xa;panel.add(panelSat)&#xa;&#xa;def panelShade = new JPanel()&#xa;panelShade.add(new JLabel(&apos;adjustShade      &apos;))&#xa;20.times{i -&gt;&#xa;    def p = new JPanel()&#xa;    p.preferredSize = new Dimension(20,20)&#xa;    p.background = myColor.adjustShade((float)(i * 5f))&#xa;    panelShade.add(p)&#xa;}&#xa;panel.add(panelShade)&#xa;&#xa;&#xa;def panelTone = new JPanel()&#xa;panelTone.add(new JLabel(&apos;adjustTone        &apos;))&#xa;20.times{i -&gt;&#xa;    def p = new JPanel()&#xa;    p.preferredSize = new Dimension(20,20)&#xa;    p.background = myColor.adjustTone((float)(i * 5f))&#xa;    panelTone.add(p)&#xa;}&#xa;panel.add(panelTone)&#xa;&#xa;&#xa;panel&#xa;&#xa;&#xa;public class HSLColor&#xa;{&#xa;         private Color rgb;&#xa;         private float[] hsl;&#xa;         private float alpha;&#xa;    &#xa;    // region: constructors HSLColor&#xa;&#xa;         /**&#xa;          *  Create a HSLColor object using an RGB Color object.&#xa;          *&#xa;          *  @param rgb the RGB Color object&#xa;          */&#xa;         public HSLColor(Color rgb)&#xa;         {&#xa;                  this.rgb = rgb;&#xa;                  hsl = fromRGB( rgb );&#xa;                  alpha = rgb.getAlpha() / 255.0f;&#xa;         }&#xa;&#xa;         /**&#xa;          *  Create a HSLColor object using individual HSL values and a default&#xa;          * alpha value of 1.0.&#xa;          *&#xa;          *  @param h is the Hue value in degrees between 0 - 360&#xa;          *  @param s is the Saturation percentage between 0 - 100&#xa;          *  @param l is the Lumanance percentage between 0 - 100&#xa;          */&#xa;         public HSLColor(float h, float s, float l)&#xa;         {&#xa;                  this(h, s, l, 1.0f);&#xa;         }&#xa;&#xa;         /**&#xa;          *  Create a HSLColor object using individual HSL values.&#xa;          *&#xa;          *  @param h     the Hue value in degrees between 0 - 360&#xa;          *  @param s     the Saturation percentage between 0 - 100&#xa;          *  @param l     the Lumanance percentage between 0 - 100&#xa;          *  @param alpha the alpha value between 0 - 1&#xa;          */&#xa;         public HSLColor(float h, float s, float l, float alpha)&#xa;         {&#xa;                  hsl = new float[] {h, s, l};&#xa;                  this.alpha = alpha;&#xa;                  rgb = toRGB(hsl, alpha);&#xa;         }&#xa;&#xa;         /**&#xa;          *  Create a HSLColor object using an an array containing the&#xa;          *  individual HSL values and with a default alpha value of 1.&#xa;          *&#xa;          *  @param hsl  array containing HSL values&#xa;          */&#xa;         public HSLColor(float[] hsl)&#xa;         {&#xa;                  this(hsl, 1.0f);&#xa;         }&#xa;&#xa;         /**&#xa;          *  Create a HSLColor object using an an array containing the&#xa;          *  individual HSL values.&#xa;          *&#xa;          *  @param hsl  array containing HSL values&#xa;          *  @param alpha the alpha value between 0 - 1&#xa;          */&#xa;         public HSLColor(float[] hsl, float alpha)&#xa;         {&#xa;                  this.hsl = hsl;&#xa;                  this.alpha = alpha;&#xa;                  rgb = toRGB(hsl, alpha);&#xa;         }&#xa;&#xa;    //endregion: end: constructors&#xa;&#xa;         /**&#xa;          *  Create a RGB Color object based on this HSLColor with a different&#xa;          *  Hue value. The degrees specified is an absolute value.&#xa;          *&#xa;          *  @param degrees - the Hue value between 0 - 360&#xa;          *  @return the RGB Color object&#xa;          */&#xa;         public Color adjustHue(float degrees)&#xa;         {&#xa;                  return toRGB(degrees, hsl[1], hsl[2], alpha);&#xa;         }&#xa;&#xa;         /**&#xa;          *  Create a RGB Color object based on this HSLColor with a different&#xa;          *  Luminance value. The percent specified is an absolute value.&#xa;          *&#xa;          *  @param percent - the Luminance value between 0 - 100&#xa;          *  @return the RGB Color object&#xa;          */&#xa;         public Color adjustLuminance(float percent)&#xa;         {&#xa;                  return toRGB(hsl[0], hsl[1], percent, alpha);&#xa;         }&#xa;&#xa;         /**&#xa;          *  Create a RGB Color object based on this HSLColor with a different&#xa;          *  Saturation value. The percent specified is an absolute value.&#xa;          *&#xa;          *  @param percent - the Saturation value between 0 - 100&#xa;          *  @return the RGB Color object&#xa;          */&#xa;         public Color adjustSaturation(float percent)&#xa;         {&#xa;                  return toRGB(hsl[0], percent, hsl[2], alpha);&#xa;         }&#xa;&#xa;         /**&#xa;          *  Create a RGB Color object based on this HSLColor with a different&#xa;          *  Shade. Changing the shade will return a darker color. The percent&#xa;          *  specified is a relative value.&#xa;          *&#xa;          *  @param percent - the value between 0 - 100&#xa;          *  @return the RGB Color object&#xa;          */&#xa;         public Color adjustShade(float percent)&#xa;         {&#xa;                  float multiplier = (100.0f - percent) / 100.0f;&#xa;                  float l = Math.max(0.0f, hsl[2] * multiplier);&#xa;&#xa;                  return toRGB(hsl[0], hsl[1], l, alpha);&#xa;         }&#xa;&#xa;         /**&#xa;          *  Create a RGB Color object based on this HSLColor with a different&#xa;          *  Tone. Changing the tone will return a lighter color. The percent&#xa;          *  specified is a relative value.&#xa;          *&#xa;          *  @param percent - the value between 0 - 100&#xa;          *  @return the RGB Color object&#xa;          */&#xa;         public Color adjustTone(float percent)&#xa;         {&#xa;                  float multiplier = (100.0f + percent) / 100.0f;&#xa;                  float l = Math.min(100.0f, hsl[2] * multiplier);&#xa;&#xa;                  return toRGB(hsl[0], hsl[1], l, alpha);&#xa;         }&#xa;&#xa;         /**&#xa;          *  Get the Alpha value.&#xa;          *&#xa;          *  @return the Alpha value.&#xa;          */&#xa;         public float getAlpha()&#xa;         {&#xa;                  return alpha;&#xa;         }&#xa;&#xa;         /**&#xa;          *  Create a RGB Color object that is the complementary color of this&#xa;          *  HSLColor. This is a convenience method. The complementary color is&#xa;          *  determined by adding 180 degrees to the Hue value.&#xa;          *  @return the RGB Color object&#xa;          */&#xa;         public Color getComplementary()&#xa;         {&#xa;                  float hue = (hsl[0] + 180.0f) % 360.0f;&#xa;                  return toRGB(hue, hsl[1], hsl[2]);&#xa;         }&#xa;&#xa;         /**&#xa;          *  Get the Hue value.&#xa;          *&#xa;          *  @return the Hue value.&#xa;          */&#xa;         public float getHue()&#xa;         {&#xa;                  return hsl[0];&#xa;         }&#xa;&#xa;         /**&#xa;          *  Get the HSL values.&#xa;          *&#xa;          *  @return the HSL values.&#xa;          */&#xa;         public float[] getHSL()&#xa;         {&#xa;                  return hsl;&#xa;         }&#xa;&#xa;         /**&#xa;          *  Get the Luminance value.&#xa;          *&#xa;          *  @return the Luminance value.&#xa;          */&#xa;         public float getLuminance()&#xa;         {&#xa;                  return hsl[2];&#xa;         }&#xa;&#xa;         /**&#xa;          *  Get the RGB Color object represented by this HDLColor.&#xa;          *&#xa;          *  @return the RGB Color object.&#xa;          */&#xa;         public Color getRGB()&#xa;         {&#xa;                  return rgb;&#xa;         }&#xa;&#xa;         /**&#xa;          *  Get the Saturation value.&#xa;          *&#xa;          *  @return the Saturation value.&#xa;          */&#xa;         public float getSaturation()&#xa;         {&#xa;                  return hsl[1];&#xa;         }&#xa;&#xa;         public String toString()&#xa;         {&#xa;                  String toString =&#xa;                           &quot;HSLColor[h=&quot; + hsl[0] +&#xa;                           &quot;,s=&quot; + hsl[1] +&#xa;                           &quot;,l=&quot; + hsl[2] +&#xa;                           &quot;,alpha=&quot; + alpha + &quot;]&quot;;&#xa;&#xa;                  return toString;&#xa;         }&#xa;&#xa;         /**&#xa;          *  Convert a RGB Color to it corresponding HSL values.&#xa;          *&#xa;          *  @return an array containing the 3 HSL values.&#xa;          */&#xa;         public static float[] fromRGB(Color color)&#xa;         {&#xa;                  //  Get RGB values in the range 0 - 1&#xa;&#xa;                  float[] rgb = color.getRGBColorComponents( null );&#xa;                  float r = rgb[0];&#xa;                  float g = rgb[1];&#xa;                  float b = rgb[2];&#xa;&#xa;                  //         Minimum and Maximum RGB values are used in the HSL calculations&#xa;&#xa;                  float min = Math.min(r, Math.min(g, b));&#xa;                  float max = Math.max(r, Math.max(g, b));&#xa;&#xa;                  //  Calculate the Hue&#xa;&#xa;                  float h = 0;&#xa;&#xa;                  if (max == min)&#xa;                           h = 0;&#xa;                  else if (max == r)&#xa;                           h = ((60 * (g - b) / (max - min)) + 360) % 360;&#xa;                  else if (max == g)&#xa;                           h = (60 * (b - r) / (max - min)) + 120;&#xa;                  else if (max == b)&#xa;                           h = (60 * (r - g) / (max - min)) + 240;&#xa;&#xa;                  //  Calculate the Luminance&#xa;&#xa;                  float l = (max + min) / 2;&#xa;&#xa;                  //  Calculate the Saturation&#xa;&#xa;                  float s = 0;&#xa;&#xa;                  if (max == min)&#xa;                           s = 0;&#xa;                  else if (l &lt;= .5f)&#xa;                           s = (max - min) / (max + min);&#xa;                  else&#xa;                           s = (max - min) / (2 - max - min);&#xa;&#xa;                  return new float[] {h, s * 100, l * 100};&#xa;         }&#xa;&#xa;         /**&#xa;          *  Convert HSL values to a RGB Color with a default alpha value of 1.&#xa;          *  H (Hue) is specified as degrees in the range 0 - 360.&#xa;          *  S (Saturation) is specified as a percentage in the range 1 - 100.&#xa;          *  L (Lumanance) is specified as a percentage in the range 1 - 100.&#xa;          *&#xa;          *  @param hsl an array containing the 3 HSL values&#xa;          *&#xa;          *  @returns the RGB Color object&#xa;          */&#xa;         public static Color toRGB(float[] hsl)&#xa;         {&#xa;                  return toRGB(hsl, 1.0f);&#xa;         }&#xa;&#xa;         /**&#xa;          *  Convert HSL values to a RGB Color.&#xa;          *  H (Hue) is specified as degrees in the range 0 - 360.&#xa;          *  S (Saturation) is specified as a percentage in the range 1 - 100.&#xa;          *  L (Lumanance) is specified as a percentage in the range 1 - 100.&#xa;          *&#xa;          *  @param hsl    an array containing the 3 HSL values&#xa;          *  @param alpha  the alpha value between 0 - 1&#xa;          *&#xa;          *  @returns the RGB Color object&#xa;          */&#xa;         public static Color toRGB(float[] hsl, float alpha)&#xa;         {&#xa;                  return toRGB(hsl[0], hsl[1], hsl[2], alpha);&#xa;         }&#xa;&#xa;         /**&#xa;          *  Convert HSL values to a RGB Color with a default alpha value of 1.&#xa;          *&#xa;          *  @param h Hue is specified as degrees in the range 0 - 360.&#xa;          *  @param s Saturation is specified as a percentage in the range 1 - 100.&#xa;          *  @param l Lumanance is specified as a percentage in the range 1 - 100.&#xa;          *&#xa;          *  @returns the RGB Color object&#xa;          */&#xa;         public static Color toRGB(float h, float s, float l)&#xa;         {&#xa;                  return toRGB(h, s, l, 1.0f);&#xa;         }&#xa;&#xa;         /**&#xa;          *  Convert HSL values to a RGB Color.&#xa;          *&#xa;          *  @param h Hue is specified as degrees in the range 0 - 360.&#xa;          *  @param s Saturation is specified as a percentage in the range 1 - 100.&#xa;          *  @param l Lumanance is specified as a percentage in the range 1 - 100.&#xa;          *  @param alpha  the alpha value between 0 - 1&#xa;          *&#xa;          *  @returns the RGB Color object&#xa;          */&#xa;         public static Color toRGB(float h, float s, float l, float alpha)&#xa;         {&#xa;                  if (s &lt;0.0f || s &gt; 100.0f)&#xa;                  {&#xa;                           String message = &quot;Color parameter outside of expected range - Saturation&quot;;&#xa;                           throw new IllegalArgumentException( message );&#xa;                  }&#xa;&#xa;                  if (l &lt;0.0f || l &gt; 100.0f)&#xa;                  {&#xa;                           String message = &quot;Color parameter outside of expected range - Luminance&quot;;&#xa;                           throw new IllegalArgumentException( message );&#xa;                  }&#xa;&#xa;                  if (alpha &lt;0.0f || alpha &gt; 1.0f)&#xa;                  {&#xa;                           String message = &quot;Color parameter outside of expected range - Alpha&quot;;&#xa;                           throw new IllegalArgumentException( message );&#xa;                  }&#xa;&#xa;                  //  Formula needs all values between 0 - 1.&#xa;&#xa;                  h = h % 360.0f;&#xa;                  h /= 360f;&#xa;                  s /= 100f;&#xa;                  l /= 100f;&#xa;&#xa;                  float q = 0;&#xa;&#xa;                  if (l &lt; 0.5)&#xa;                           q = l * (1 + s);&#xa;                  else&#xa;                           q = (l + s) - (s * l);&#xa;&#xa;                  float p = 2 * l - q;&#xa;&#xa;                  float r = Math.max(0, HueToRGB(p, q, h + (1.0f / 3.0f)));&#xa;                  float g = Math.max(0, HueToRGB(p, q, h));&#xa;                  float b = Math.max(0, HueToRGB(p, q, h - (1.0f / 3.0f)));&#xa;&#xa;                  r = Math.min(r, 1.0f);&#xa;                  g = Math.min(g, 1.0f);&#xa;                  b = Math.min(b, 1.0f);&#xa;&#xa;                  return new Color(r, g, b, alpha);&#xa;         }&#xa;&#xa;         private static float HueToRGB(float p, float q, float h)&#xa;         {&#xa;                  if (h &lt; 0) h += 1;&#xa;&#xa;                  if (h &gt; 1 ) h -= 1;&#xa;&#xa;                  if (6 * h &lt; 1)&#xa;                  {&#xa;                           return p + ((q - p) * 6 * h);&#xa;                  }&#xa;&#xa;                  if (2 * h &lt; 1 )&#xa;                  {&#xa;                           return  q;&#xa;                  }&#xa;&#xa;                  if (3 * h &lt; 2)&#xa;                  {&#xa;                           return p + ( (q - p) * 6 * ((2.0f / 3.0f) - h) );&#xa;                  }&#xa;&#xa;                     return p;&#xa;         }&#xa;    &#xa;         private static float HueToRGB( p, q, h)&#xa;         {&#xa;        return HueToRGB((float) p, (float) q, (float) h)&#xa;    }&#xa;    &#xa;}"/>
-<node TEXT="png-231027-212903994-13492260533617293341.png" ID="ID_582486964" CREATED="1698452946064" MODIFIED="1698452946064">
+<node TEXT="png-231027-212903994-13492260533617293341.png" ID="ID_582486964">
 <hook URI="ScriptsEnComputadorYDesarrollosEdo%20-%20mochila_files/png-231027-212903994-13492260533617293341.png" SIZE="0.59095955" NAME="ExternalObject"/>
 </node>
 </node>
-<node TEXT="test: cambia hue de styleNodes" ID="ID_364421933" CREATED="1692296916157" MODIFIED="1698676457188">
+<node TEXT="test: cambia hue de styleNodes" ID="ID_364421933">
 <arrowlink DESTINATION="ID_558204734" STARTINCLINATION="89.25 pt;0 pt;" ENDINCLINATION="132 pt;0 pt;"/>
 <arrowlink DESTINATION="ID_58596334" STARTINCLINATION="100.5 pt;0 pt;" ENDINCLINATION="33 pt;0 pt;"/>
 <richcontent TYPE="NOTE">
@@ -3222,7 +3222,7 @@ blockquote {
   </body>
 </html></richcontent>
 </node>
-<node TEXT="Test para Border Api (Getters)" ID="ID_444383983" CREATED="1694441743327" MODIFIED="1698588139755"><richcontent TYPE="NOTE">
+<node TEXT="Test para Border Api (Getters)" ID="ID_444383983"><richcontent TYPE="NOTE">
 <html>
   <head>
     
@@ -3287,7 +3287,7 @@ blockquote {
   </body>
 </html></richcontent>
 </node>
-<node TEXT="Test para Border API (Setters)" ID="ID_1499159941" CREATED="1698493714490" MODIFIED="1698592555664"><richcontent TYPE="NOTE">
+<node TEXT="Test para Border API (Setters)" ID="ID_1499159941"><richcontent TYPE="NOTE">
 <html>
   <head>
     
@@ -3410,14 +3410,14 @@ blockquote {
 </html></richcontent>
 </node>
 </node>
-<node TEXT="a solucionar" ID="ID_651638720" CREATED="1692297474975" MODIFIED="1692297704385">
-<node TEXT="habría que hacer accesibles los groupStyleNodes a través de la API" STYLE_REF="pendingTask" POSITION="bottom_or_right" ID="ID_58596334" CREATED="1692297648353" MODIFIED="1692297680856"/>
-<node TEXT="colores de edge, borde y otros se ven en la api, pero no se sabe si son colores heredados o sen seteados en el nodo." ID="ID_558204734" CREATED="1692297481344" MODIFIED="1692297558840">
+<node TEXT="a solucionar" ID="ID_651638720">
+<node TEXT="habría que hacer accesibles los groupStyleNodes a través de la API" STYLE_REF="pendingTask" POSITION="bottom_or_right" ID="ID_58596334"/>
+<node TEXT="colores de edge, borde y otros se ven en la api, pero no se sabe si son colores heredados o sen seteados en el nodo." ID="ID_558204734">
 <icon BUILTIN="messagebox_warning"/>
-<node TEXT="Habría que ampliar API" STYLE_REF="completedTask" ID="ID_1346597795" CREATED="1692297561988" MODIFIED="1698618588795">
+<node TEXT="Habría que ampliar API" STYLE_REF="completedTask" ID="ID_1346597795">
 <node ID="ID_1436418594" TREE_ID="ID_444383983"/>
 <node ID="ID_277603227" TREE_ID="ID_1499159941"/>
-<node TEXT="test DashVariant" ID="ID_1372788844" CREATED="1694472667657" MODIFIED="1694472681872"><richcontent TYPE="NOTE">
+<node TEXT="test DashVariant" ID="ID_1372788844"><richcontent TYPE="NOTE">
 <html>
   <head>
     
@@ -3485,9 +3485,9 @@ blockquote {
 </node>
 </node>
 </node>
-<node TEXT="como verificar contraste y readibility de text según colores" STYLE_REF="pendingTask" ID="ID_1957953731" CREATED="1692797822625" MODIFIED="1692798777627">
-<node TEXT="buenos" ID="ID_947840900" CREATED="1692798743164" MODIFIED="1692798746125">
-<node TEXT="Building your own color contrast checker" ID="ID_1262328918" CREATED="1692798600049" MODIFIED="1692798768879" LINK="https://dev.to/alvaromontoro/building-your-own-color-contrast-checker-4j7o"><richcontent TYPE="DETAILS">
+<node TEXT="como verificar contraste y readibility de text según colores" STYLE_REF="pendingTask" ID="ID_1957953731">
+<node TEXT="buenos" ID="ID_947840900">
+<node TEXT="Building your own color contrast checker" ID="ID_1262328918" LINK="https://dev.to/alvaromontoro/building-your-own-color-contrast-checker-4j7o"><richcontent TYPE="DETAILS">
 <html>
   <head>
     
@@ -3499,7 +3499,7 @@ blockquote {
   </body>
 </html></richcontent>
 </node>
-<node TEXT="How to programmatically calculate the contrast ratio between two colors?" ID="ID_273103947" CREATED="1692798669531" MODIFIED="1692798691905" LINK="https://stackoverflow.com/questions/9733288/how-to-programmatically-calculate-the-contrast-ratio-between-two-colors"><richcontent TYPE="DETAILS">
+<node TEXT="How to programmatically calculate the contrast ratio between two colors?" ID="ID_273103947" LINK="https://stackoverflow.com/questions/9733288/how-to-programmatically-calculate-the-contrast-ratio-between-two-colors"><richcontent TYPE="DETAILS">
 <html>
   <head>
     
@@ -3512,8 +3512,8 @@ blockquote {
 </html></richcontent>
 </node>
 </node>
-<node TEXT="no tan buenos" ID="ID_568686919" CREATED="1692798645930" MODIFIED="1692798651439">
-<node TEXT="Reverse opposing colors" ID="ID_925188838" CREATED="1692797934057" MODIFIED="1692798685419" LINK="https://stackoverflow.com/questions/4672271/reverse-opposing-colors"><richcontent TYPE="DETAILS">
+<node TEXT="no tan buenos" ID="ID_568686919">
+<node TEXT="Reverse opposing colors" ID="ID_925188838" LINK="https://stackoverflow.com/questions/4672271/reverse-opposing-colors"><richcontent TYPE="DETAILS">
 <html>
   <head>
     
@@ -3524,14 +3524,14 @@ blockquote {
     </p>
   </body>
 </html></richcontent>
-<node TEXT="Formula to determine perceived brightness of RGB color" POSITION="bottom_or_right" ID="ID_1815538399" CREATED="1692798470595" MODIFIED="1692798565174" LINK="https://stackoverflow.com/questions/596216/formula-to-determine-perceived-brightness-of-rgb-color"/>
+<node TEXT="Formula to determine perceived brightness of RGB color" POSITION="bottom_or_right" ID="ID_1815538399" LINK="https://stackoverflow.com/questions/596216/formula-to-determine-perceived-brightness-of-rgb-color"/>
 </node>
-<node TEXT="Calculate contrast between two colors in Android" ID="ID_1462479428" CREATED="1692798579000" MODIFIED="1692798585013" LINK="https://medium.com/@anthony.st91/calculate-contrast-between-two-colors-in-android-2fc0db879fa7"/>
+<node TEXT="Calculate contrast between two colors in Android" ID="ID_1462479428" LINK="https://medium.com/@anthony.st91/calculate-contrast-between-two-colors-in-android-2fc0db879fa7"/>
 </node>
 </node>
-<node TEXT="ColorChooser" STYLE_REF="pendingTask" ID="ID_1640735016" CREATED="1692800270746" MODIFIED="1692800280079">
-<node TEXT="implement JColorChooser" ID="ID_1329847470" CREATED="1692800378718" MODIFIED="1692800378718">
-<node TEXT="Java color chooser 🎨" POSITION="bottom_or_right" ID="ID_628345139" CREATED="1692800316965" MODIFIED="1692800511438" LINK="https://www.youtube.com/watch?v=zEw8xObSWNA"><richcontent TYPE="DETAILS">
+<node TEXT="ColorChooser" STYLE_REF="pendingTask" ID="ID_1640735016">
+<node TEXT="implement JColorChooser" ID="ID_1329847470">
+<node TEXT="Java color chooser 🎨" POSITION="bottom_or_right" ID="ID_628345139" LINK="https://www.youtube.com/watch?v=zEw8xObSWNA"><richcontent TYPE="DETAILS">
 <html>
   <head>
     
@@ -3543,7 +3543,7 @@ blockquote {
   </body>
 </html></richcontent>
 </node>
-<node TEXT="Java Swing | JColorChooser Class" ID="ID_1091449499" CREATED="1692800393062" MODIFIED="1692800539899" LINK="https://www.geeksforgeeks.org/java-swing-jcolorchooser-class/"><richcontent TYPE="DETAILS">
+<node TEXT="Java Swing | JColorChooser Class" ID="ID_1091449499" LINK="https://www.geeksforgeeks.org/java-swing-jcolorchooser-class/"><richcontent TYPE="DETAILS">
 <html>
   <head>
     
@@ -3556,7 +3556,7 @@ blockquote {
 </html></richcontent>
 </node>
 </node>
-<node TEXT="How do I show only the HSV box of a JColorChooser?" ID="ID_109632542" CREATED="1692800292076" MODIFIED="1692800566734" LINK="https://stackoverflow.com/questions/44233428/how-do-i-show-only-the-hsv-box-of-a-jcolorchooser"><richcontent TYPE="DETAILS">
+<node TEXT="How do I show only the HSV box of a JColorChooser?" ID="ID_109632542" LINK="https://stackoverflow.com/questions/44233428/how-do-i-show-only-the-hsv-box-of-a-jcolorchooser"><richcontent TYPE="DETAILS">
 <html>
   <head>
     
@@ -3569,9 +3569,9 @@ blockquote {
 </html></richcontent>
 </node>
 </node>
-<node TEXT="incluir mindMap background" STYLE_REF="pendingTask" ID="ID_1721777602" CREATED="1692807841575" MODIFIED="1692807854654"/>
+<node TEXT="incluir mindMap background" STYLE_REF="pendingTask" ID="ID_1721777602"/>
 </node>
-<node TEXT="Freeplane_StylesColorShifter" STYLE_REF="baseFolder" POSITION="bottom_or_right" ID="ID_1788530775" CREATED="1698676234593" MODIFIED="1698676377035" LINK=".">
+<node TEXT="Freeplane_StylesColorShifter" STYLE_REF="baseFolder" POSITION="bottom_or_right" ID="ID_1788530775" LINK=".">
 <attribute NAME="nameFilter" VALUE=""/>
 <attribute NAME="maxDepth" VALUE="-1" OBJECT="org.freeplane.features.format.FormattedNumber|-1|#0.####"/>
 <attribute NAME="linkType" VALUE="1" OBJECT="org.freeplane.features.format.FormattedNumber|1|#0.####"/>
@@ -3652,8 +3652,8 @@ before the actual namefilter setting)
 -----------------------------------------------------
 
 </text></richcontent>
-<node TEXT="files" ID="ID_914906289" CREATED="1641401717205" MODIFIED="1641401722142">
-<node TEXT=".gitattributes" ID="ID_1810741711" CREATED="1616167740216" MODIFIED="1631468493995"><richcontent TYPE="DETAILS">
+<node TEXT="files" ID="ID_914906289">
+<node TEXT=".gitattributes" ID="ID_1810741711"><richcontent TYPE="DETAILS">
 <html>
   <head>
     
@@ -3665,12 +3665,12 @@ before the actual namefilter setting)
   </body>
 </html></richcontent>
 </node>
-<node TEXT="StylesColorShifter" ID="ID_655617087" CREATED="1631460354268" MODIFIED="1698680665547" LINK="StylesColorShifter/">
+<node TEXT="StylesColorShifter" ID="ID_655617087" LINK="StylesColorShifter/">
 <attribute NAME="script1" VALUE="def nodo = node&#xd;&#xa;def texto = nodo.text&#xd;&#xa;&#xd;&#xa;def nodos = nodo.find{it.text.contains(texto)}&#xd;&#xa;&#xd;&#xa;&#xd;&#xa;def cambiarA = ui.showInputDialog(&#xd;&#xa;        nodo.delegate, &#xd;&#xa;        &apos;input new AddOn name (it will CamelCase it and delete spaces)&apos;, &#xd;&#xa;        &apos; my new add on example   &apos;&#xd;&#xa;    )?.trim()&#xd;&#xa;&#xd;&#xa;cambiarA = cambiarA.split(&apos; &apos;)*.capitalize().join()&#xd;&#xa;&#xd;&#xa;nodos.each{n -&gt;&#xd;&#xa;    n.text = n.text.replace(texto,cambiarA)&#xd;&#xa;}"/>
-<node TEXT="lib" STYLE_REF="Organizador" ID="ID_1532177955" CREATED="1616167740217" MODIFIED="1616167740217">
-<node TEXT="src" ID="ID_951201924" CREATED="1616167740217" MODIFIED="1698680665547" LINK="StylesColorShifter/src/">
-<node TEXT="main" ID="ID_1474218924" CREATED="1616167740218" MODIFIED="1698680665547" LINK="StylesColorShifter/src/main/">
-<node TEXT="groovy" ID="ID_480852405" CREATED="1616167740218" MODIFIED="1698680665547" LINK="StylesColorShifter/src/main/groovy/"><richcontent TYPE="DETAILS">
+<node TEXT="lib" STYLE_REF="Organizador" ID="ID_1532177955">
+<node TEXT="src" ID="ID_951201924" LINK="StylesColorShifter/src/">
+<node TEXT="main" ID="ID_1474218924" LINK="StylesColorShifter/src/main/">
+<node TEXT="groovy" ID="ID_480852405" LINK="StylesColorShifter/src/main/groovy/"><richcontent TYPE="DETAILS">
 <html>
   <head>
     
@@ -3681,9 +3681,9 @@ before the actual namefilter setting)
     </p>
   </body>
 </html></richcontent>
-<node TEXT="agregar classes .groovy para crear librería" STYLE_REF="pendingTask" ID="ID_864196620" CREATED="1641401249475" MODIFIED="1683207907629"/>
+<node TEXT="agregar classes .groovy para crear librería" STYLE_REF="pendingTask" ID="ID_864196620"/>
 </node>
-<node TEXT="java" ID="ID_1237254777" CREATED="1616167740218" MODIFIED="1698680665563" LINK="StylesColorShifter/src/main/java/"><richcontent TYPE="DETAILS">
+<node TEXT="java" ID="ID_1237254777" LINK="StylesColorShifter/src/main/java/"><richcontent TYPE="DETAILS">
 <html>
   <head>
     
@@ -3694,9 +3694,9 @@ before the actual namefilter setting)
     </p>
   </body>
 </html></richcontent>
-<node TEXT="agregar classes .java para crear librería" STYLE_REF="pendingTask" ID="ID_626161079" CREATED="1641401249475" MODIFIED="1683207914421"/>
+<node TEXT="agregar classes .java para crear librería" STYLE_REF="pendingTask" ID="ID_626161079"/>
 </node>
-<node TEXT="resources" ID="ID_1269946188" CREATED="1616167740218" MODIFIED="1698680665563" LINK="StylesColorShifter/src/main/resources/"><richcontent TYPE="DETAILS">
+<node TEXT="resources" ID="ID_1269946188" LINK="StylesColorShifter/src/main/resources/"><richcontent TYPE="DETAILS">
 <html>
   <head>
     
@@ -3707,11 +3707,11 @@ before the actual namefilter setting)
     </p>
   </body>
 </html></richcontent>
-<node TEXT="agregar resources para crear librería" STYLE_REF="pendingTask" ID="ID_1934295245" CREATED="1641401249475" MODIFIED="1683207886613"/>
+<node TEXT="agregar resources para crear librería" STYLE_REF="pendingTask" ID="ID_1934295245"/>
 </node>
 </node>
 </node>
-<node TEXT="build" ID="ID_1199166701" CREATED="1616167740224" MODIFIED="1698680665563" LINK="StylesColorShifter/build/"><richcontent TYPE="DETAILS">
+<node TEXT="build" ID="ID_1199166701" LINK="StylesColorShifter/build/"><richcontent TYPE="DETAILS">
 <html>
   <head>
     
@@ -3722,10 +3722,10 @@ before the actual namefilter setting)
     </p>
   </body>
 </html></richcontent>
-<node TEXT="classes" STYLE_REF="locked" ID="ID_1042881035" CREATED="1616167740225" MODIFIED="1631462057776"/>
-<node TEXT="tmp" STYLE_REF="locked" ID="ID_958615140" CREATED="1616167740230" MODIFIED="1631462057796"/>
+<node TEXT="classes" STYLE_REF="locked" ID="ID_1042881035"/>
+<node TEXT="tmp" STYLE_REF="locked" ID="ID_958615140"/>
 </node>
-<node TEXT="lib" ID="ID_1509577189" CREATED="1616167740232" MODIFIED="1698680665563" LINK="StylesColorShifter/lib/"><richcontent TYPE="DETAILS">
+<node TEXT="lib" ID="ID_1509577189" LINK="StylesColorShifter/lib/"><richcontent TYPE="DETAILS">
 <html>
   <head>
     
@@ -3739,7 +3739,7 @@ before the actual namefilter setting)
     </p>
   </body>
 </html></richcontent>
-<node TEXT="adaptar archivo build.gradle" STYLE_REF="pendingTask" ID="ID_1208628556" CREATED="1641401148142" MODIFIED="1641401239882"><richcontent TYPE="NOTE">
+<node TEXT="adaptar archivo build.gradle" STYLE_REF="pendingTask" ID="ID_1208628556"><richcontent TYPE="NOTE">
 <html>
   <head>
     
@@ -3753,7 +3753,7 @@ before the actual namefilter setting)
 </node>
 </node>
 </node>
-<node TEXT="scripts" ID="ID_769645111" CREATED="1616167740367" MODIFIED="1698680665563" LINK="StylesColorShifter/scripts/"><richcontent TYPE="DETAILS">
+<node TEXT="scripts" ID="ID_769645111" LINK="StylesColorShifter/scripts/"><richcontent TYPE="DETAILS">
 <html>
   <head>
     
@@ -3765,8 +3765,8 @@ before the actual namefilter setting)
   </body>
 </html></richcontent>
 </node>
-<node TEXT="zips" ID="ID_16963129" CREATED="1616167740371" MODIFIED="1698680665563" LINK="StylesColorShifter/zips/">
-<node TEXT="icons" ID="ID_907668637" CREATED="1616167740371" MODIFIED="1698680665563" LINK="StylesColorShifter/zips/icons/"><richcontent TYPE="DETAILS">
+<node TEXT="zips" ID="ID_16963129" LINK="StylesColorShifter/zips/">
+<node TEXT="icons" ID="ID_907668637" LINK="StylesColorShifter/zips/icons/"><richcontent TYPE="DETAILS">
 <html>
   <head>
     
@@ -3777,9 +3777,9 @@ before the actual namefilter setting)
     </p>
   </body>
 </html></richcontent>
-<node TEXT="StylesColorShifter" ID="ID_1450585164" CREATED="1631460354268" MODIFIED="1698680665563" LINK="StylesColorShifter/zips/icons/StylesColorShifter/"/>
+<node TEXT="StylesColorShifter" ID="ID_1450585164" LINK="StylesColorShifter/zips/icons/StylesColorShifter/"/>
 </node>
-<node TEXT="doc" ID="ID_817312710" CREATED="1631461076561" MODIFIED="1698680665563" LINK="StylesColorShifter/zips/doc/"><richcontent TYPE="DETAILS">
+<node TEXT="doc" ID="ID_817312710" LINK="StylesColorShifter/zips/doc/"><richcontent TYPE="DETAILS">
 <html>
   <head>
     
@@ -3790,9 +3790,9 @@ before the actual namefilter setting)
     </p>
   </body>
 </html></richcontent>
-<node TEXT="StylesColorShifter" ID="ID_1706696808" CREATED="1631460354268" MODIFIED="1698680665563" LINK="StylesColorShifter/zips/doc/StylesColorShifter/"/>
+<node TEXT="StylesColorShifter" ID="ID_1706696808" LINK="StylesColorShifter/zips/doc/StylesColorShifter/"/>
 </node>
-<node TEXT="templates" ID="ID_1206015128" CREATED="1620659975335" MODIFIED="1698680665563" LINK="StylesColorShifter/zips/templates/"><richcontent TYPE="DETAILS">
+<node TEXT="templates" ID="ID_1206015128" LINK="StylesColorShifter/zips/templates/"><richcontent TYPE="DETAILS">
 <html>
   <head>
     
@@ -3803,22 +3803,22 @@ before the actual namefilter setting)
     </p>
   </body>
 </html></richcontent>
-<node TEXT="StylesColorShifter" ID="ID_1965126596" CREATED="1631460354268" MODIFIED="1698680665563" LINK="StylesColorShifter/zips/templates/StylesColorShifter/"/>
+<node TEXT="StylesColorShifter" ID="ID_1965126596" LINK="StylesColorShifter/zips/templates/StylesColorShifter/"/>
 </node>
 </node>
-<node TEXT="images" ID="ID_1417172357" CREATED="1631461312175" MODIFIED="1698680665563" LINK="StylesColorShifter/images/">
-<node TEXT="StylesColorShifter-screenshot-1.png" STYLE_REF="pendingTask" ID="ID_394437952" CREATED="1616167740292" MODIFIED="1698677500811">
-<node TEXT="128x77" ID="ID_1340115384" CREATED="1616167740293" MODIFIED="1616167740293"/>
+<node TEXT="images" ID="ID_1417172357" LINK="StylesColorShifter/images/">
+<node TEXT="StylesColorShifter-screenshot-1.png" STYLE_REF="pendingTask" ID="ID_394437952">
+<node TEXT="128x77" ID="ID_1340115384"/>
 </node>
-<node TEXT="StylesColorShifter.png" STYLE_REF="pendingTask" ID="ID_507988348" CREATED="1616167740293" MODIFIED="1698677500842">
-<node TEXT="53x32" ID="ID_1058648515" CREATED="1616167740293" MODIFIED="1616167740293"/>
+<node TEXT="StylesColorShifter.png" STYLE_REF="pendingTask" ID="ID_507988348">
+<node TEXT="53x32" ID="ID_1058648515"/>
 </node>
-<node TEXT="StylesColorShifter-icon.png" STYLE_REF="pendingTask" ID="ID_845035360" CREATED="1616167740293" MODIFIED="1698677500889">
-<node TEXT="27x16" ID="ID_610352297" CREATED="1616167740294" MODIFIED="1616167740294"/>
+<node TEXT="StylesColorShifter-icon.png" STYLE_REF="pendingTask" ID="ID_845035360">
+<node TEXT="27x16" ID="ID_610352297"/>
 </node>
 </node>
-<node TEXT="StylesColorShifter.mm" ID="ID_1414424250" CREATED="1698680669237" MODIFIED="1698681463718" LINK="StylesColorShifter/StylesColorShifter.mm"/>
-<node TEXT="generados automáticamente" STYLE_REF="Organizador" ID="ID_1322710766" CREATED="1616167740294" MODIFIED="1631461616556"><richcontent TYPE="DETAILS">
+<node TEXT="StylesColorShifter.mm" ID="ID_1414424250" LINK="StylesColorShifter/StylesColorShifter.mm"/>
+<node TEXT="generados automáticamente" STYLE_REF="Organizador" ID="ID_1322710766"><richcontent TYPE="DETAILS">
 <html>
   <head>
     
@@ -3832,10 +3832,10 @@ before the actual namefilter setting)
     </p>
   </body>
 </html></richcontent>
-<node TEXT="StylesColorShifter.mm.bak" ID="ID_201698727" CREATED="1698680669237" MODIFIED="1698681463718" LINK="StylesColorShifter/StylesColorShifter.mm.bak"/>
-<node TEXT="versiones anteriores" STYLE_REF="Organizador" ID="ID_1294563992" CREATED="1616167740295" MODIFIED="1616167740295"/>
+<node TEXT="StylesColorShifter.mm.bak" ID="ID_201698727" LINK="StylesColorShifter/StylesColorShifter.mm.bak"/>
+<node TEXT="versiones anteriores" STYLE_REF="Organizador" ID="ID_1294563992"/>
 </node>
-<node TEXT="build.gradle" ID="ID_947582973" CREATED="1616167740297" MODIFIED="1698678164524" LINK="StylesColorShifter/build.gradle">
+<node TEXT="build.gradle" ID="ID_947582973" LINK="StylesColorShifter/build.gradle">
 <icon BUILTIN="pencil"/>
 <richcontent TYPE="NOTE">
 <html>
@@ -4085,8 +4085,8 @@ before the actual namefilter setting)
 </richcontent>
 </node>
 </node>
-<node TEXT="resources" ID="ID_834164356" CREATED="1631461043230" MODIFIED="1698680665579" LINK="resources/"/>
-<node TEXT="ignoredByGitHub" ID="ID_158482988" CREATED="1641400458308" MODIFIED="1698680665579" LINK="ignoredByGitHub/"><richcontent TYPE="DETAILS">
+<node TEXT="resources" ID="ID_834164356" LINK="resources/"/>
+<node TEXT="ignoredByGitHub" ID="ID_158482988" LINK="ignoredByGitHub/"><richcontent TYPE="DETAILS">
 <html>
   <head>
     
@@ -4098,7 +4098,7 @@ before the actual namefilter setting)
   </body>
 </html></richcontent>
 </node>
-<node TEXT=".gitignore" ID="ID_1303065106" CREATED="1640357004339" MODIFIED="1698680703630" LINK=".gitignore">
+<node TEXT=".gitignore" ID="ID_1303065106" LINK=".gitignore">
 <icon BUILTIN="pencil"/>
 <richcontent TYPE="NOTE">
 <html>
@@ -4197,33 +4197,33 @@ before the actual namefilter setting)
 </html>
 </richcontent>
 </node>
-<node TEXT="README.MD" ID="ID_1760900536" CREATED="1631460374778" MODIFIED="1698677801766" LINK="README.MD">
+<node TEXT="README.MD" ID="ID_1760900536" LINK="README.MD">
 <icon BUILTIN="pencil"/>
 <richcontent TYPE="NOTE" CONTENT-TYPE="plain/markdown">
 <text># Dummy readme file
 
 justa a **dummy** markdown file
 </text></richcontent>
-<node TEXT="README-StylesColorShifter-MDH.mm" ID="ID_90612368" CREATED="1698678847563" MODIFIED="1698678847563" LINK="README-StylesColorShifter-MDH.mm">
-<node TEXT="Compose README.MD" STYLE_REF="pendingTask" ID="ID_39942570" CREATED="1698679426787" MODIFIED="1698679469244">
-<node TEXT="actualizar ReadMe" ID="ID_657973678" CREATED="1616167740207" MODIFIED="1616167740207">
-<node TEXT="nuevas fumcionalidades" ID="ID_758305282" CREATED="1616167740207" MODIFIED="1616167740207">
-<node TEXT="ver cambios en versiones" ID="ID_953755414" CREATED="1616167740207" MODIFIED="1616167740207"/>
+<node TEXT="README-StylesColorShifter-MDH.mm" ID="ID_90612368" LINK="README-StylesColorShifter-MDH.mm">
+<node TEXT="Compose README.MD" STYLE_REF="pendingTask" FOLDED="true" ID="ID_39942570">
+<node TEXT="actualizar ReadMe" ID="ID_657973678">
+<node TEXT="nuevas fumcionalidades" ID="ID_758305282">
+<node TEXT="ver cambios en versiones" ID="ID_953755414"/>
 </node>
-<node TEXT="link a último release" ID="ID_1938689594" CREATED="1616167740207" MODIFIED="1616167740207"/>
-<node TEXT="link a release de myTempScripts" ID="ID_21905535" CREATED="1616167740207" MODIFIED="1616167740207"/>
-<node TEXT="imágenes de funcionalidades" ID="ID_649580334" CREATED="1616167740207" MODIFIED="1616167740207">
-<node TEXT="load con append" ID="ID_740538921" CREATED="1616167740207" MODIFIED="1616167740207"/>
-<node TEXT="tempScripts" ID="ID_1460106694" CREATED="1616167740207" MODIFIED="1616167740207"/>
+<node TEXT="link a último release" ID="ID_1938689594"/>
+<node TEXT="link a release de myTempScripts" ID="ID_21905535"/>
+<node TEXT="imágenes de funcionalidades" ID="ID_649580334">
+<node TEXT="load con append" ID="ID_740538921"/>
+<node TEXT="tempScripts" ID="ID_1460106694"/>
 </node>
-<node TEXT="Agregar imágenes" ID="ID_336657469" CREATED="1616167740207" MODIFIED="1616167740207"/>
-<node TEXT="agregar descripción de nuevos comandos" ID="ID_1776031537" CREATED="1616167740207" MODIFIED="1616167740207"/>
-<node TEXT="agregar historial de cambios" ID="ID_770299347" CREATED="1616167740207" MODIFIED="1616167740207"/>
-</node>
-</node>
+<node TEXT="Agregar imágenes" ID="ID_336657469"/>
+<node TEXT="agregar descripción de nuevos comandos" ID="ID_1776031537"/>
+<node TEXT="agregar historial de cambios" ID="ID_770299347"/>
 </node>
 </node>
-<node TEXT="LICENSE.md" ID="ID_1162875293" CREATED="1624997519282" MODIFIED="1698678865521" LINK="LICENSE.md">
+</node>
+</node>
+<node TEXT="LICENSE.md" ID="ID_1162875293" LINK="LICENSE.md">
 <icon BUILTIN="pencil"/>
 <richcontent TYPE="NOTE">
 <html>
@@ -4298,9 +4298,9 @@ justa a **dummy** markdown file
 </html>
 </richcontent>
 </node>
-<node TEXT="Freeplane_StylesColorShifter project.mm" ID="ID_99525980" CREATED="1698676377113" MODIFIED="1698676377129" LINK="Freeplane_StylesColorShifter%20project.mm"/>
+<node TEXT="Freeplane_StylesColorShifter project.mm" ID="ID_99525980" LINK="Freeplane_StylesColorShifter%20project.mm"/>
 </node>
-<node TEXT="delete" STYLE_REF="trashFolder" ID="ID_1738635975" CREATED="1641400492551" MODIFIED="1698680710581" LINK="delete/"><richcontent TYPE="DETAILS">
+<node TEXT="delete" STYLE_REF="trashFolder" ID="ID_1738635975" LINK="delete/"><richcontent TYPE="DETAILS">
 <html>
   <head>
     
@@ -4312,7 +4312,7 @@ justa a **dummy** markdown file
   </body>
 </html></richcontent>
 </node>
-<node TEXT="new imported files" STYLE_REF="newFolderImport" ID="ID_478156398" CREATED="1698676361100" MODIFIED="1698681541766">
+<node TEXT="new imported files" STYLE_REF="newFolderImport" ID="ID_478156398">
 <attribute NAME="log_MDI" VALUE="2" OBJECT="org.freeplane.features.format.FormattedObject|org.freeplane.plugin.script.proxy.ConvertibleText&amp;#x7c;2|number:decimal:#0.####"/>
 <richcontent TYPE="NOTE">
 <html>
@@ -4321,7 +4321,7 @@ justa a **dummy** markdown file
   </head>
   <body>
     <p>
-      Inated:&#xa0;&#xa0;&#xa0;2023-10-30&#xa0;&#xa0;12:59:00
+      Inated:&#xa0;&#xa0;&#xa0;2023-10-30&#xa0;&#xa0;12:59:33
     </p>
     <p>
       
@@ -4381,58 +4381,58 @@ justa a **dummy** markdown file
 </html>
 </richcontent>
 </node>
-<node TEXT="versión instalada en AddOns" STYLE_REF="locked" ID="ID_157019487" CREATED="1616167740215" MODIFIED="1616167740215"/>
-<node TEXT="Tareas" STYLE_REF="Organizador" ID="ID_1067967208" CREATED="1641397479073" MODIFIED="1641401944369">
-<node TEXT="pendientes" STYLE_REF="Organizador" FOLDED="true" ID="ID_1229920014" CREATED="1616167740207" MODIFIED="1641397139157">
-<node TEXT="inicializar" STYLE_REF="Organizador" ID="ID_992136212" CREATED="1616167740207" MODIFIED="1616167740207">
-<node TEXT="crear fork en Github" ID="ID_1817761812" CREATED="1616167740207" MODIFIED="1616167740207"/>
+<node TEXT="versión instalada en AddOns" STYLE_REF="locked" ID="ID_157019487"/>
+<node TEXT="Tareas" STYLE_REF="Organizador" ID="ID_1067967208">
+<node TEXT="pendientes" STYLE_REF="Organizador" FOLDED="true" ID="ID_1229920014">
+<node TEXT="inicializar" STYLE_REF="Organizador" ID="ID_992136212">
+<node TEXT="crear fork en Github" ID="ID_1817761812"/>
 </node>
-<node TEXT="Funcionalidad" STYLE_REF="Organizador" ID="ID_1029595169" CREATED="1616167740207" MODIFIED="1616167740207">
-<node TEXT="incluir preferencias en Addon.mm" ID="ID_69809183" CREATED="1616167740207" MODIFIED="1616167740207">
-<node TEXT="indicar properties" ID="ID_428307907" CREATED="1616167740207" MODIFIED="1616167740207"/>
-<node TEXT="indicar valores default" ID="ID_929690261" CREATED="1616167740207" MODIFIED="1616167740207"/>
-<node TEXT="indicar traducciones" ID="ID_633618392" CREATED="1616167740207" MODIFIED="1616167740207"/>
+<node TEXT="Funcionalidad" STYLE_REF="Organizador" ID="ID_1029595169">
+<node TEXT="incluir preferencias en Addon.mm" ID="ID_69809183">
+<node TEXT="indicar properties" ID="ID_428307907"/>
+<node TEXT="indicar valores default" ID="ID_929690261"/>
+<node TEXT="indicar traducciones" ID="ID_633618392"/>
 </node>
-<node TEXT="llevar ajustes a panel de preferencias" ID="ID_86700142" CREATED="1616167740207" MODIFIED="1616167740207"/>
+<node TEXT="llevar ajustes a panel de preferencias" ID="ID_86700142"/>
 </node>
-<node TEXT="documentación" STYLE_REF="Organizador" ID="ID_1406755252" CREATED="1616167740207" MODIFIED="1616167740207">
-<node TEXT="actualizar wiki" ID="ID_1633951829" CREATED="1616167740207" MODIFIED="1616167740207"/>
+<node TEXT="documentación" STYLE_REF="Organizador" ID="ID_1406755252">
+<node TEXT="actualizar wiki" ID="ID_1633951829"/>
 </node>
-<node TEXT="publicar" STYLE_REF="Organizador" ID="ID_136617403" CREATED="1616167740207" MODIFIED="1616167740207">
-<node TEXT="armar AddOn" ID="ID_1072551783" CREATED="1616167740207" MODIFIED="1616167740207">
-<node TEXT="revisar información de uninstall" ID="ID_788137025" CREATED="1616167740207" MODIFIED="1616167740207"/>
-<node TEXT="actualizar listado de cambios" ID="ID_373979640" CREATED="1616167740207" MODIFIED="1616167740207"/>
-<node TEXT="poner bien nombres de scripts" ID="ID_1491919774" CREATED="1616167740207" MODIFIED="1616167740207"/>
-<node TEXT="agregar traducciones" ID="ID_1467937045" CREATED="1616167740207" MODIFIED="1616167740207"/>
-<node TEXT="agregar historial de cambios" ID="ID_107850903" CREATED="1616167740207" MODIFIED="1616167740207"/>
-<node TEXT="mejorar descripción de add On" ID="ID_269712555" CREATED="1616167740207" MODIFIED="1616167740207"/>
+<node TEXT="publicar" STYLE_REF="Organizador" ID="ID_136617403">
+<node TEXT="armar AddOn" ID="ID_1072551783">
+<node TEXT="revisar información de uninstall" ID="ID_788137025"/>
+<node TEXT="actualizar listado de cambios" ID="ID_373979640"/>
+<node TEXT="poner bien nombres de scripts" ID="ID_1491919774"/>
+<node TEXT="agregar traducciones" ID="ID_1467937045"/>
+<node TEXT="agregar historial de cambios" ID="ID_107850903"/>
+<node TEXT="mejorar descripción de add On" ID="ID_269712555"/>
 </node>
-<node TEXT="testear" ID="ID_144030123" CREATED="1616167740207" MODIFIED="1616167740207"/>
-<node TEXT="agregar release en Github con archivo descargable" ID="ID_964738963" CREATED="1616167740207" MODIFIED="1616167740207"/>
-<node TEXT="actualizar ReadMe" ID="ID_1258937094" CREATED="1616167740207" MODIFIED="1616167740207">
-<node TEXT="nuevas fumcionalidades" ID="ID_886401935" CREATED="1616167740207" MODIFIED="1616167740207">
-<node TEXT="ver cambios en versiones" ID="ID_780334353" CREATED="1616167740207" MODIFIED="1616167740207"/>
+<node TEXT="testear" ID="ID_144030123"/>
+<node TEXT="agregar release en Github con archivo descargable" ID="ID_964738963"/>
+<node TEXT="actualizar ReadMe" ID="ID_1258937094">
+<node TEXT="nuevas fumcionalidades" ID="ID_886401935">
+<node TEXT="ver cambios en versiones" ID="ID_780334353"/>
 </node>
-<node TEXT="link a último release" ID="ID_756247980" CREATED="1616167740207" MODIFIED="1616167740207"/>
-<node TEXT="link a release de myTempScripts" ID="ID_1516424680" CREATED="1616167740207" MODIFIED="1616167740207"/>
-<node TEXT="imágenes de funcionalidades" ID="ID_1090667127" CREATED="1616167740207" MODIFIED="1616167740207">
-<node TEXT="load con append" ID="ID_1078109805" CREATED="1616167740207" MODIFIED="1616167740207"/>
-<node TEXT="tempScripts" ID="ID_1148790101" CREATED="1616167740207" MODIFIED="1616167740207"/>
+<node TEXT="link a último release" ID="ID_756247980"/>
+<node TEXT="link a release de myTempScripts" ID="ID_1516424680"/>
+<node TEXT="imágenes de funcionalidades" ID="ID_1090667127">
+<node TEXT="load con append" ID="ID_1078109805"/>
+<node TEXT="tempScripts" ID="ID_1148790101"/>
 </node>
-<node TEXT="Agregar imágenes" ID="ID_1827845947" CREATED="1616167740207" MODIFIED="1616167740207"/>
-<node TEXT="agregar descripción de nuevos comandos" ID="ID_809415472" CREATED="1616167740207" MODIFIED="1616167740207"/>
-<node TEXT="agregar historial de cambios" ID="ID_1567538591" CREATED="1616167740207" MODIFIED="1616167740207"/>
+<node TEXT="Agregar imágenes" ID="ID_1827845947"/>
+<node TEXT="agregar descripción de nuevos comandos" ID="ID_809415472"/>
+<node TEXT="agregar historial de cambios" ID="ID_1567538591"/>
 </node>
-<node TEXT="comunicar en foro Freeplane" ID="ID_485725424" CREATED="1616167740207" MODIFIED="1698681417366"/>
-<node TEXT="actualizar a listado de AddOns en FP wiki" ID="ID_1120638306" CREATED="1616167740207" MODIFIED="1616167740207">
-<node TEXT="agregar a listado de AddOns en FP wiki" ID="ID_1589703091" CREATED="1616167740207" MODIFIED="1616167740207"/>
-<node TEXT="usar addOn documentation de devTools" ID="ID_1828403482" CREATED="1616167740207" MODIFIED="1616167740207"/>
+<node TEXT="comunicar en foro Freeplane" ID="ID_485725424"/>
+<node TEXT="actualizar a listado de AddOns en FP wiki" ID="ID_1120638306">
+<node TEXT="agregar a listado de AddOns en FP wiki" ID="ID_1589703091"/>
+<node TEXT="usar addOn documentation de devTools" ID="ID_1828403482"/>
 </node>
 </node>
 </node>
-<node TEXT="colores Freeplane" FOLDED="true" ID="ID_574877018" CREATED="1689544925520" MODIFIED="1689544940182">
-<node TEXT="3C83C5" POSITION="bottom_or_right" ID="ID_1978542219" CREATED="1689109942455" MODIFIED="1689109942455"/>
-<node TEXT="d1d1d1" POSITION="bottom_or_right" ID="ID_484974937" CREATED="1689112812857" MODIFIED="1689112812857"/>
+<node TEXT="colores Freeplane" FOLDED="true" ID="ID_574877018">
+<node TEXT="3C83C5" POSITION="bottom_or_right" ID="ID_1978542219"/>
+<node TEXT="d1d1d1" POSITION="bottom_or_right" ID="ID_484974937"/>
 </node>
 </node>
 </node>
