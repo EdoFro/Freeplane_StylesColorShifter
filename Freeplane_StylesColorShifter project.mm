@@ -1,7 +1,7 @@
 <map version="freeplane 1.11.5">
 <!--To view this file, download free mind mapping software Freeplane from https://www.freeplane.org -->
 <attribute_registry SHOW_ATTRIBUTES="selected"/>
-<node TEXT="Freeplane_StylesColorShifter" STYLE_REF="file_folder" FOLDED="false" ID="ID_1541123012" LINK="../../OneDrive/Documentos/Mochila/Freeplane/ScriptsEnComputadorYDesarrollosEdo%20-%20mochila.mm"><hook NAME="MapStyle" background="#f9f9f8" zoom="0.8">
+<node TEXT="Freeplane_StylesColorShifter" STYLE_REF="file_folder" FOLDED="false" ID="ID_1541123012" LINK="../../OneDrive/Documentos/Mochila/Freeplane/ScriptsEnComputadorYDesarrollosEdo%20-%20mochila.mm"><hook NAME="MapStyle" background="#f9f9f8">
     <conditional_styles>
         <conditional_style ACTIVE="true" STYLE_REF="Warning" LAST="false">
             <node_contains_condition VALUE=".EXIT_ON_CLOSE" ITEM="filter_any_text"/>
@@ -57,7 +57,7 @@
 <font SIZE="24"/>
 <stylenode LOCALIZED_TEXT="styles.predefined" POSITION="bottom_or_right" STYLE="bubble">
 <stylenode LOCALIZED_TEXT="default" ID="ID_506805493" ICON_SIZE="12 pt" FORMAT_AS_HYPERLINK="false" COLOR="#484747" BACKGROUND_COLOR="#efefef" STYLE="bubble" SHAPE_HORIZONTAL_MARGIN="5 px" SHAPE_VERTICAL_MARGIN="2 px" NUMBERED="false" FORMAT="STANDARD_FORMAT" TEXT_ALIGN="DEFAULT" TEXT_WRITING_DIRECTION="LEFT_TO_RIGHT" BORDER_WIDTH_LIKE_EDGE="false" BORDER_WIDTH="1.9 px" BORDER_COLOR_LIKE_EDGE="false" BORDER_COLOR="#8fbcbb" BORDER_DASH_LIKE_EDGE="true" BORDER_DASH="SOLID" VGAP_QUANTITY="2 px" COMMON_HGAP_QUANTITY="14 pt" CHILD_NODES_LAYOUT="AUTO">
-<arrowlink SHAPE="CUBIC_CURVE" COLOR="#bf5d3f" WIDTH="2" TRANSPARENCY="200" DASH="" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_506805493" STARTINCLINATION="45 pt;-11.25 pt;" ENDINCLINATION="57 pt;30 pt;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
+<arrowlink SHAPE="CUBIC_CURVE" COLOR="#bf5d3f" WIDTH="2" TRANSPARENCY="200" DASH="" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_506805493" STARTINCLINATION="45 pt;-10.5 pt;" ENDINCLINATION="57 pt;30 pt;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
 <font NAME="Dialog" SIZE="10" BOLD="false" STRIKETHROUGH="false" ITALIC="false"/>
 <edge STYLE="horizontal" COLOR="#2e3440" WIDTH="1" DASH="SOLID"/>
 <richcontent TYPE="DETAILS" CONTENT-TYPE="plain/auto"/>
@@ -288,7 +288,7 @@ blockquote {
 </map_styles>
 </hook>
 <node TEXT="designing" ID="ID_829143723">
-<node TEXT="idea" ID="ID_1523325247">
+<node TEXT="idea" FOLDED="true" ID="ID_1523325247">
 <node TEXT="en base al stylesMap" ID="ID_292759776"/>
 <node TEXT="cambia los colores de los estilos" ID="ID_1443497310">
 <node TEXT="cambiando el ángulo de la rueda de color (HUE)" ID="ID_1731615585"/>
@@ -517,10 +517,10 @@ blockquote {
 </node>
 </node>
 </node>
-<node TEXT="tests" ID="ID_58861595">
+<node TEXT="tests" FOLDED="true" ID="ID_58861595">
 <node TEXT="tests sin librerías" STYLE_REF="completedTask" FOLDED="true" ID="ID_1223904888">
 <node TEXT="test: genera muestrario de cambios hechos con HSLColor" ID="ID_1535166099">
-<arrowlink DESTINATION="ID_79134841" STARTINCLINATION="45 pt;0 pt;" ENDINCLINATION="102.75 pt;-16.5 pt;"/>
+<arrowlink DESTINATION="ID_79134841" STARTINCLINATION="45 pt;0 pt;" ENDINCLINATION="102.75 pt;-15.75 pt;"/>
 <richcontent TYPE="DETAILS">
 <html>
   <head>
@@ -538,8 +538,8 @@ blockquote {
 </node>
 </node>
 <node TEXT="test: cambia hue de styleNodes" ID="ID_364421933">
-<arrowlink DESTINATION="ID_558204734" STARTINCLINATION="89.25 pt;0 pt;" ENDINCLINATION="132 pt;0 pt;"/>
 <arrowlink DESTINATION="ID_58596334" STARTINCLINATION="100.5 pt;0 pt;" ENDINCLINATION="33 pt;0 pt;"/>
+<arrowlink DESTINATION="ID_558204734" STARTINCLINATION="89.25 pt;0 pt;" ENDINCLINATION="132 pt;0 pt;"/>
 <richcontent TYPE="NOTE">
 <html>
   <head>
@@ -2055,7 +2055,7 @@ blockquote {
 </html></richcontent>
 </node>
 </node>
-<node TEXT="tests con librería HSLColor" STYLE_REF="pendingTask" POSITION="bottom_or_right" ID="ID_1472689918">
+<node TEXT="tests con librería HSLColor" STYLE_REF="completedTask" FOLDED="true" POSITION="bottom_or_right" ID="ID_1472689918">
 <node TEXT="test: genera muestrario de cambios hechos con HSLColor" FOLDED="true" ID="ID_79134841"><richcontent TYPE="DETAILS">
 <html>
   <head>
@@ -2074,9 +2074,9 @@ blockquote {
 </node>
 <node TEXT="Random Color Shifter" ID="ID_1434305673">
 <icon BUILTIN="emoji-1F3B2"/>
+<arrowlink DESTINATION="ID_1604241442"/>
 <arrowlink DESTINATION="ID_558204734" STARTINCLINATION="89.25 pt;0 pt;" ENDINCLINATION="132 pt;0 pt;"/>
 <arrowlink DESTINATION="ID_58596334" STARTINCLINATION="100.5 pt;0 pt;" ENDINCLINATION="33 pt;0 pt;"/>
-<arrowlink DESTINATION="ID_1604241442"/>
 <richcontent TYPE="NOTE">
 <html>
   <head>
@@ -2330,8 +2330,7 @@ blockquote {
       &#xa0;&#xa0;&#xa0;&#xa0;}
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <richcontent TYPE="DETAILS">
 <html>
   <head>
@@ -2345,8 +2344,7 @@ blockquote {
       Con tiempos sleep para evitar errores de groovy Console
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node TEXT="Style Color Shifter" POSITION="bottom_or_right" ID="ID_1011011725">
 <attribute NAME="tbTitle" VALUE="Style Color Shifter"/>
@@ -2629,8 +2627,7 @@ blockquote {
       &#xa0;&#xa0;&#xa0;&#xa0;}
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <richcontent TYPE="DETAILS">
 <html>
   <head>
@@ -2645,7 +2642,7 @@ blockquote {
 </node>
 </node>
 </node>
-<node TEXT="tests con librería HSLColor y StyleMap" STYLE_REF="pendingTask" ID="ID_1827069366">
+<node TEXT="tests con librería HSLColor y StyleMap" STYLE_REF="completedTask" FOLDED="true" ID="ID_1827069366">
 <node TEXT="Style Color Shifter" POSITION="bottom_or_right" ID="ID_1215358482">
 <attribute NAME="tbTitle" VALUE="Style Color Shifter"/>
 <attribute NAME="tbMaxTextLength" VALUE="50" OBJECT="org.freeplane.features.format.FormattedNumber|50"/>
@@ -2903,8 +2900,7 @@ blockquote {
       &#xa0;&#xa0;&#xa0;&#xa0;}
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <richcontent TYPE="DETAILS">
 <html>
   <head>
@@ -2919,7 +2915,7 @@ blockquote {
 </node>
 </node>
 </node>
-<node TEXT="tests con librería HSLColor, StyleMap y ColorShifter" STYLE_REF="pendingTask" ID="ID_1344060518">
+<node TEXT="tests con librería HSLColor, StyleMap y ColorShifter" STYLE_REF="completedTask" FOLDED="true" ID="ID_1344060518">
 <node TEXT="Style Color Shifter" POSITION="bottom_or_right" ID="ID_942667939">
 <attribute NAME="tbTitle" VALUE="Style Color Shifter"/>
 <attribute NAME="tbMaxTextLength" VALUE="50" OBJECT="org.freeplane.features.format.FormattedNumber|50"/>
@@ -3006,8 +3002,7 @@ blockquote {
       &#xa0;&#xa0;&#xa0;&#xa0;ColorShifter.shift(nodos, colorShift, saturation, true)
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <richcontent TYPE="DETAILS">
 <html>
   <head>
@@ -3022,8 +3017,53 @@ blockquote {
 </node>
 </node>
 </node>
-<node TEXT="tests con librería HSLColor y map.getStyleNodes()" STYLE_REF="pendingTask" POSITION="bottom_or_right" ID="ID_593656837">
-<arrowlink DESTINATION="ID_58596334" STARTINCLINATION="46.5 pt;-28.5 pt;" ENDINCLINATION="64.5 pt;-14.25 pt;"/>
+</node>
+<node TEXT="a solucionar" ID="ID_651638720">
+<node TEXT="habría que hacer accesibles los groupStyleNodes a través de la API" STYLE_REF="pendingTask" FOLDED="true" POSITION="bottom_or_right" ID="ID_58596334">
+<node TEXT="test getting StyleNodes" ID="ID_703108736"><richcontent TYPE="NOTE">
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      import org.freeplane.api.StyleGroup
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      def map = node.mindMap
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      println &quot;Predefined styles&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;: ${ map.getStyleNodes( StyleGroup.PREDEFINED&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;) } \n&quot;
+    </p>
+    <p>
+      println &quot;User defined styles&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;: ${ map.getStyleNodes( StyleGroup.USER_DEFINED&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;) } \n&quot;
+    </p>
+    <p>
+      println &quot;Automatic Layout styles : ${ map.getStyleNodes( StyleGroup.AUTOMATIC_LAYOUT ) } \n&quot;
+    </p>
+  </body>
+</html></richcontent>
+<richcontent TYPE="DETAILS">
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      .groovy
+    </p>
+  </body>
+</html></richcontent>
+</node>
+</node>
+<node TEXT="tests con librería HSLColor y map.getStyleNodes()" STYLE_REF="pendingTask" FOLDED="true" POSITION="bottom_or_right" ID="ID_593656837">
+<arrowlink DESTINATION="ID_58596334" STARTINCLINATION="46.5 pt;-27.75 pt;" ENDINCLINATION="64.5 pt;-13.5 pt;"/>
 <node TEXT="test: cambia hue de styleNodes" POSITION="bottom_or_right" ID="ID_1796584442"><richcontent TYPE="NOTE">
 <html>
   <head>
@@ -3239,52 +3279,7 @@ blockquote {
 <node TEXT="Esto no se implementó en Freeplane.&#xa;Al menos no aún." POSITION="bottom_or_right" ID="ID_999145212"/>
 </node>
 </node>
-<node TEXT="a solucionar" ID="ID_651638720">
-<node TEXT="habría que hacer accesibles los groupStyleNodes a través de la API" STYLE_REF="pendingTask" POSITION="bottom_or_right" ID="ID_58596334">
-<node TEXT="test getting StyleNodes" ID="ID_703108736"><richcontent TYPE="NOTE">
-<html>
-  <head>
-    
-  </head>
-  <body>
-    <p>
-      import org.freeplane.api.StyleGroup
-    </p>
-    <p>
-      
-    </p>
-    <p>
-      def map = node.mindMap
-    </p>
-    <p>
-      
-    </p>
-    <p>
-      println &quot;Predefined styles&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;: ${ map.getStyleNodes( StyleGroup.PREDEFINED&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;) } \n&quot;
-    </p>
-    <p>
-      println &quot;User defined styles&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;: ${ map.getStyleNodes( StyleGroup.USER_DEFINED&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;) } \n&quot;
-    </p>
-    <p>
-      println &quot;Automatic Layout styles : ${ map.getStyleNodes( StyleGroup.AUTOMATIC_LAYOUT ) } \n&quot;
-    </p>
-  </body>
-</html></richcontent>
-<richcontent TYPE="DETAILS">
-<html>
-  <head>
-    
-  </head>
-  <body>
-    <p>
-      .groovy
-    </p>
-  </body>
-</html></richcontent>
-</node>
-</node>
-</node>
-<node TEXT="como verificar contraste y readibility de text según colores" STYLE_REF="pendingTask" ID="ID_1957953731">
+<node TEXT="como verificar contraste y readibility de text según colores" STYLE_REF="pendingTask" FOLDED="true" ID="ID_1957953731">
 <node TEXT="buenos" ID="ID_947840900">
 <node TEXT="Building your own color contrast checker" ID="ID_1262328918" LINK="https://dev.to/alvaromontoro/building-your-own-color-contrast-checker-4j7o"><richcontent TYPE="DETAILS">
 <html>
@@ -3327,7 +3322,7 @@ blockquote {
 </node>
 <node TEXT="Calculate contrast between two colors in Android" ID="ID_1462479428" LINK="https://medium.com/@anthony.st91/calculate-contrast-between-two-colors-in-android-2fc0db879fa7"/>
 </node>
-<node TEXT="ver también métodos de uiTools" STYLE_REF="nextTask" ID="ID_364503477">
+<node TEXT="ver también métodos de uiTools" STYLE_REF="completedTask" ID="ID_364503477">
 <node TEXT="../freeplane/BIN/doc/api/org/freeplane/core/ui/components/UITools.html" POSITION="bottom_or_right" ID="ID_1959484228" LINK="../freeplane/BIN/doc/api/org/freeplane/core/ui/components/UITools.html"/>
 <node TEXT="ejemplo métodos uiTools para colores" ID="ID_337277050"><richcontent TYPE="NOTE">
 <html>
@@ -3363,8 +3358,7 @@ blockquote {
       println ui.isLightLookAndFeelInstalled()
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <richcontent TYPE="DETAILS">
 <html>
   <head>
@@ -3375,8 +3369,7 @@ blockquote {
       .groovy
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <node TEXT="getTextColorForBackground(Color color)" STYLE_REF="completedTask" ID="ID_526564191"/>
 <node TEXT="isLight(Color color)" STYLE_REF="completedTask" POSITION="bottom_or_right" ID="ID_1521024010"/>
 <node TEXT="isLighter(Color color, int minimum)" STYLE_REF="completedTask" POSITION="bottom_or_right" ID="ID_872625338"/>
@@ -4580,7 +4573,7 @@ blockquote {
 </node>
 <node TEXT="https://docs.oracle.com/javase/8/docs/api/javax/swing/JColorChooser.html" POSITION="bottom_or_right" ID="ID_928192233" LINK="https://docs.oracle.com/javase/8/docs/api/javax/swing/JColorChooser.html"/>
 </node>
-<node TEXT="incluir mindMap background" STYLE_REF="pendingTask" ID="ID_1721777602"/>
+<node TEXT="incluir mindMap background" STYLE_REF="completedTask" ID="ID_1721777602"/>
 </node>
 <node TEXT="Freeplane_StylesColorShifter" STYLE_REF="baseFolder" POSITION="bottom_or_right" ID="ID_1788530775" LINK=".">
 <attribute NAME="nameFilter" VALUE=""/>
@@ -4665,7 +4658,7 @@ before the actual namefilter setting)
 </text></richcontent>
 <node TEXT="files" ID="ID_914906289">
 <node TEXT=".gitattributes" ID="ID_1433849507" LINK=".gitattributes"/>
-<node TEXT="StylesColorShifter" ID="ID_655617087" LINK="StylesColorShifter/">
+<node TEXT="StylesColorShifter" FOLDED="true" ID="ID_655617087" LINK="StylesColorShifter/">
 <attribute NAME="script1" VALUE="def nodo = node&#xd;&#xa;def texto = nodo.text&#xd;&#xa;&#xd;&#xa;def nodos = nodo.find{it.text.contains(texto)}&#xd;&#xa;&#xd;&#xa;&#xd;&#xa;def cambiarA = ui.showInputDialog(&#xd;&#xa;        nodo.delegate, &#xd;&#xa;        &apos;input new AddOn name (it will CamelCase it and delete spaces)&apos;, &#xd;&#xa;        &apos; my new add on example   &apos;&#xd;&#xa;    )?.trim()&#xd;&#xa;&#xd;&#xa;cambiarA = cambiarA.split(&apos; &apos;)*.capitalize().join()&#xd;&#xa;&#xd;&#xa;nodos.each{n -&gt;&#xd;&#xa;    n.text = n.text.replace(texto,cambiarA)&#xd;&#xa;}"/>
 <node TEXT="lib" STYLE_REF="Organizador" ID="ID_1532177955">
 <node TEXT="src" ID="ID_951201924" LINK="StylesColorShifter/src/">
@@ -4681,10 +4674,7 @@ before the actual namefilter setting)
     </p>
   </body>
 </html></richcontent>
-<node TEXT="agregar classes .groovy para crear librería" STYLE_REF="pendingTask" ID="ID_864196620"/>
-<node TEXT="HSLColor.groovy" POSITION="bottom_or_right" ID="ID_967367598" LINK="StylesColorShifter/src/main/groovy/HSLColor.groovy">
-<arrowlink DESTINATION="ID_1223904888" STARTINCLINATION="233.24999 pt;-147.75 pt;" ENDINCLINATION="60.75 pt;99 pt;"/>
-<richcontent TYPE="NOTE">
+<node TEXT="HSLColor.groovy" FOLDED="true" POSITION="bottom_or_right" ID="ID_967367598" LINK="StylesColorShifter/src/main/groovy/HSLColor.groovy"><richcontent TYPE="NOTE">
 <html>
   <head>
     
@@ -6224,55 +6214,6 @@ before the actual namefilter setting)
     </p>
   </body>
 </html></richcontent>
-<node TEXT="ver pseudo freeplane api" STYLE_REF="nextTask" ID="ID_28574985"/>
-<node TEXT="test: librería temp StyleGroups" ID="ID_1004568174"><richcontent TYPE="NOTE">
-<html>
-  <head>
-    
-  </head>
-  <body>
-    <p>
-      import edofro.stylescolorshifter.TempStyle.StyleGroup
-    </p>
-    <p>
-      import edofro.stylescolorshifter.TempStyle
-    </p>
-    <p>
-      
-    </p>
-    <p>
-      
-    </p>
-    <p>
-      def map = node.mindMap
-    </p>
-    <p>
-      
-    </p>
-    <p>
-      println &quot;Predefined styles&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;: ${ TempStyle.getStyleNodes( StyleGroup.PREDEFINED&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;) } \n&quot;
-    </p>
-    <p>
-      println &quot;User defined styles&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;: ${ TempStyle.getStyleNodes( StyleGroup.USER_DEFINED&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;) } \n&quot;
-    </p>
-    <p>
-      println &quot;Automatic layout styles : ${ TempStyle.getStyleNodes( StyleGroup.AUTOMATIC_LAYOUT ) } \n&quot;
-    </p>
-  </body>
-</html></richcontent>
-<richcontent TYPE="DETAILS">
-<html>
-  <head>
-    
-  </head>
-  <body>
-    <p>
-      .groovy
-    </p>
-  </body>
-</html></richcontent>
-<node TEXT="no intentar" ID="ID_1496076642"/>
-</node>
 </node>
 <node TEXT="ChoosePanelHS.groovy" ID="ID_120077822" LINK="StylesColorShifter/src/main/groovy/ChoosePanelHS.groovy"/>
 <node TEXT="StyleMap.groovy" ID="ID_200885466" LINK="StylesColorShifter/src/main/groovy/StyleMap.groovy"/>
@@ -6289,7 +6230,6 @@ before the actual namefilter setting)
     </p>
   </body>
 </html></richcontent>
-<node TEXT="agregar classes .java para crear librería" STYLE_REF="pendingTask" ID="ID_626161079"/>
 </node>
 <node TEXT="resources" ID="ID_1269946188" LINK="StylesColorShifter/src/main/resources/"><richcontent TYPE="DETAILS">
 <html>
@@ -6302,7 +6242,6 @@ before the actual namefilter setting)
     </p>
   </body>
 </html></richcontent>
-<node TEXT="agregar resources para crear librería" STYLE_REF="pendingTask" ID="ID_1934295245"/>
 </node>
 </node>
 </node>
@@ -6320,7 +6259,7 @@ before the actual namefilter setting)
 <node TEXT="classes" STYLE_REF="locked" ID="ID_873908433" LINK="StylesColorShifter/build/classes/"/>
 <node TEXT="tmp" STYLE_REF="locked" ID="ID_735498353" LINK="StylesColorShifter/build/tmp/"/>
 </node>
-<node TEXT="lib" ID="ID_1509577189" LINK="StylesColorShifter/lib/"><richcontent TYPE="DETAILS">
+<node TEXT="lib" FOLDED="true" ID="ID_1509577189" LINK="StylesColorShifter/lib/"><richcontent TYPE="DETAILS">
 <html>
   <head>
     
@@ -6446,7 +6385,7 @@ before the actual namefilter setting)
 </node>
 <node TEXT="ColorShifterDialog.groovy" STYLE_REF="freshNew" ID="ID_1212492384" LINK="StylesColorShifter/scripts/ColorShifterDialog.groovy"/>
 </node>
-<node TEXT="zips" ID="ID_16963129" LINK="StylesColorShifter/zips/">
+<node TEXT="zips" FOLDED="true" ID="ID_16963129" LINK="StylesColorShifter/zips/">
 <node TEXT="icons" ID="ID_907668637" LINK="StylesColorShifter/zips/icons/"><richcontent TYPE="DETAILS">
 <html>
   <head>
@@ -6487,7 +6426,7 @@ before the actual namefilter setting)
 <node TEXT="StylesColorShifter" ID="ID_1965126596" LINK="StylesColorShifter/zips/templates/StylesColorShifter/"/>
 </node>
 </node>
-<node TEXT="images" ID="ID_1417172357" LINK="StylesColorShifter/images/">
+<node TEXT="images" FOLDED="true" ID="ID_1417172357" LINK="StylesColorShifter/images/">
 <node TEXT="StylesColorShifter-screenshot-1.png" STYLE_REF="pendingTask" ID="ID_394437952">
 <node TEXT="128x77" ID="ID_1340115384"/>
 </node>
@@ -6499,7 +6438,7 @@ before the actual namefilter setting)
 </node>
 </node>
 <node TEXT="StylesColorShifter.mm" ID="ID_1414424250" LINK="StylesColorShifter/StylesColorShifter.mm"/>
-<node TEXT="generados automáticamente" STYLE_REF="Organizador" ID="ID_1322710766"><richcontent TYPE="DETAILS">
+<node TEXT="generados automáticamente" STYLE_REF="Organizador" FOLDED="true" ID="ID_1322710766"><richcontent TYPE="DETAILS">
 <html>
   <head>
     
@@ -6774,8 +6713,38 @@ before the actual namefilter setting)
 <node TEXT="gradlew" ID="ID_464157282" LINK="StylesColorShifter/gradlew"/>
 <node TEXT="gradlew.bat" ID="ID_1460680779" LINK="StylesColorShifter/gradlew.bat"/>
 </node>
-<node TEXT="resources" ID="ID_834164356" LINK="resources/">
-<node TEXT="testCambiaColorStyleNodes.groovy" POSITION="bottom_or_right" ID="ID_397309801" LINK="resources/testCambiaColorStyleNodes.groovy"><richcontent TYPE="NOTE">
+<node TEXT="resources" FOLDED="true" ID="ID_834164356" LINK="resources/">
+<node TEXT="Test shift colors.mm" POSITION="bottom_or_right" ID="ID_333889739" LINK="resources/Test%20shift%20colors.mm"/>
+<node TEXT="RandomColors.mp4" POSITION="bottom_or_right" ID="ID_649514457" LINK="resources/RandomColors.mp4"/>
+<node TEXT="ColorShifterDialog.mp4" ID="ID_48930013" LINK="resources/ColorShifterDialog.mp4"/>
+</node>
+<node TEXT="ignoredByGitHub" FOLDED="true" ID="ID_158482988" LINK="ignoredByGitHub/"><richcontent TYPE="DETAILS">
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      folder with files not to be copied to Github
+    </p>
+  </body>
+</html></richcontent>
+<node TEXT="blue.gif" POSITION="bottom_or_right" ID="ID_285597596" LINK="ignoredByGitHub/blue.gif"/>
+<node TEXT="green.gif" POSITION="bottom_or_right" ID="ID_228003063" LINK="ignoredByGitHub/green.gif"/>
+<node TEXT="red.gif" POSITION="bottom_or_right" ID="ID_423652494" LINK="ignoredByGitHub/red.gif"/>
+<node TEXT="yellow.gif" POSITION="bottom_or_right" ID="ID_926096434" LINK="ignoredByGitHub/yellow.gif"/>
+<node TEXT="tests ColorChooser" FOLDED="true" ID="ID_744377618">
+<node ID="ID_814821536" TREE_ID="ID_1790257311">
+<node ID="ID_664763325" TREE_ID="ID_1627889103"/>
+</node>
+<node ID="ID_1881163455" TREE_ID="ID_990281636">
+<node ID="ID_612933897" TREE_ID="ID_1543924848"/>
+</node>
+<node ID="ID_1513930990" TREE_ID="ID_1490966747">
+<node ID="ID_167223401" TREE_ID="ID_566371008"/>
+</node>
+</node>
+<node TEXT="testCambiaColorStyleNodes.groovy" POSITION="bottom_or_right" ID="ID_397309801" LINK="ignoredByGitHub/testCambiaColorStyleNodes.groovy"><richcontent TYPE="NOTE">
 <html>
   <head>
     
@@ -7035,34 +7004,6 @@ before the actual namefilter setting)
   </body>
 </html></richcontent>
 </node>
-<node TEXT="Test shift colors.mm" POSITION="bottom_or_right" ID="ID_333889739" LINK="resources/Test%20shift%20colors.mm"/>
-</node>
-<node TEXT="ignoredByGitHub" ID="ID_158482988" LINK="ignoredByGitHub/"><richcontent TYPE="DETAILS">
-<html>
-  <head>
-    
-  </head>
-  <body>
-    <p>
-      folder with files not to be copied to Github
-    </p>
-  </body>
-</html></richcontent>
-<node TEXT="blue.gif" POSITION="bottom_or_right" ID="ID_285597596" LINK="ignoredByGitHub/blue.gif"/>
-<node TEXT="green.gif" POSITION="bottom_or_right" ID="ID_228003063" LINK="ignoredByGitHub/green.gif"/>
-<node TEXT="red.gif" POSITION="bottom_or_right" ID="ID_423652494" LINK="ignoredByGitHub/red.gif"/>
-<node TEXT="yellow.gif" POSITION="bottom_or_right" ID="ID_926096434" LINK="ignoredByGitHub/yellow.gif"/>
-<node TEXT="tests ColorChooser" FOLDED="true" ID="ID_744377618">
-<node ID="ID_814821536" TREE_ID="ID_1790257311">
-<node ID="ID_664763325" TREE_ID="ID_1627889103"/>
-</node>
-<node ID="ID_1881163455" TREE_ID="ID_990281636">
-<node ID="ID_612933897" TREE_ID="ID_1543924848"/>
-</node>
-<node ID="ID_1513930990" TREE_ID="ID_1490966747">
-<node ID="ID_167223401" TREE_ID="ID_566371008"/>
-</node>
-</node>
 </node>
 <node TEXT=".gitignore" ID="ID_1303065106" LINK=".gitignore"><richcontent TYPE="NOTE">
 <html>
@@ -7165,7 +7106,7 @@ before the actual namefilter setting)
 
 justa a **dummy** markdown file
 </text></richcontent>
-<node TEXT="README-StylesColorShifter-MDH.mm" ID="ID_90612368" LINK="README-StylesColorShifter-MDH.mm">
+<node TEXT="README-StylesColorShifter-MDH.mm" FOLDED="true" ID="ID_90612368" LINK="README-StylesColorShifter-MDH.mm">
 <node TEXT="Compose README.MD" STYLE_REF="pendingTask" FOLDED="true" ID="ID_39942570">
 <node TEXT="actualizar ReadMe" ID="ID_657973678">
 <node TEXT="nuevas fumcionalidades" ID="ID_758305282">
@@ -7256,7 +7197,7 @@ justa a **dummy** markdown file
   </body>
 </html></richcontent>
 </node>
-<node TEXT="Freeplane_StylesColorShifter project.mm" ID="ID_99525980" LINK="Freeplane_StylesColorShifter%20project.mm"><richcontent TYPE="DETAILS">
+<node TEXT="Freeplane_StylesColorShifter project.mm" FOLDED="true" ID="ID_99525980" LINK="Freeplane_StylesColorShifter%20project.mm"><richcontent TYPE="DETAILS">
 <html>
   <head>
     
@@ -7267,7 +7208,7 @@ justa a **dummy** markdown file
     </p>
   </body>
 </html></richcontent>
-<node TEXT="Freeplane_StylesColorShifter project_files" POSITION="bottom_or_right" ID="ID_1792951474" LINK="Freeplane_StylesColorShifter%20project_files/">
+<node TEXT="Freeplane_StylesColorShifter project_files" FOLDED="true" POSITION="bottom_or_right" ID="ID_1792951474" LINK="Freeplane_StylesColorShifter%20project_files/">
 <node TEXT="png-231030-152207894-1291551122130987203.png" ID="ID_1559306323" LINK="Freeplane_StylesColorShifter%20project_files/png-231030-152207894-1291551122130987203.png"/>
 <node TEXT="png-231031-180604904-605536616171287194.png" ID="ID_547844572" LINK="Freeplane_StylesColorShifter%20project_files/png-231031-180604904-605536616171287194.png"/>
 <node TEXT="png-231101-114023416-1584454131663663007.png" ID="ID_1261836891" LINK="Freeplane_StylesColorShifter%20project_files/png-231101-114023416-1584454131663663007.png"/>
@@ -7297,7 +7238,7 @@ justa a **dummy** markdown file
   </head>
   <body>
     <p>
-      Inated:&#xa0;&#xa0;&#xa0;2023-11-02&#xa0;&#xa0;13:06:12
+      Inated:&#xa0;&#xa0;&#xa0;2023-11-02&#xa0;&#xa0;16:46:16
     </p>
     <p>
       
@@ -7306,16 +7247,16 @@ justa a **dummy** markdown file
       ------- Files: --------&#xa0;
     </p>
     <p>
-      &#xa0;1 node(s) pointing to unexisting/filtered files (marked as 'broken')
+      &#xa0;0 node(s) pointing to unexisting/filtered files (marked as 'broken')
     </p>
     <p>
       &#xa0;0 link(s) corrected in nodes
     </p>
     <p>
-      &#xa0;0 new file(s) imported as node(s)&#xa0;
+      &#xa0;1 new file(s) imported as node(s)&#xa0;
     </p>
     <p>
-      &#xa0;0 node(s) moved/renamed in drive
+      &#xa0;1 node(s) moved/renamed in drive
     </p>
     <p>
       &#xa0;0 node(s) couldn't be moved/renamed in drive (marked as 'notMovedRenamed')
@@ -7327,7 +7268,7 @@ justa a **dummy** markdown file
       ------- Folders: --------&#xa0;
     </p>
     <p>
-      26 folders didn't need to be moved&#xa0;
+      23 folders didn't need to be moved&#xa0;
     </p>
     <p>
       
@@ -7336,7 +7277,7 @@ justa a **dummy** markdown file
       
     </p>
     <p>
-      0.1 seconds
+      0.2 seconds
     </p>
     <p>
       
@@ -7356,11 +7297,7 @@ justa a **dummy** markdown file
   </body>
 </html>
 </richcontent>
-<node TEXT="StylesColorShifter" ID="ID_365660937" LINK="StylesColorShifter/">
-<node TEXT="src" ID="ID_1239060574" LINK="StylesColorShifter/src/">
-<node TEXT="main" ID="ID_841984408" LINK="StylesColorShifter/src/main/"/>
-</node>
-</node>
+<node TEXT="resources" ID="ID_1997312446" LINK="#ID_834164356"/>
 </node>
 <node TEXT="versión instalada en AddOns" STYLE_REF="locked" ID="ID_157019487"/>
 <node TEXT="Tareas" STYLE_REF="Organizador" ID="ID_1067967208">
