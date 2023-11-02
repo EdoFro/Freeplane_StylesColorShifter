@@ -12,15 +12,18 @@ import java.awt.Color
 import java.awt.Dimension
 
 import org.freeplane.features.styles.MapStyleModel;
+import org.freeplane.core.ui.components.UITools
 
 import edofro.stylescolorshifter.StyleMap
 import edofro.stylescolorshifter.ColorShifter
+
+import java.awt.FlowLayout
 
 // adapt ColorChooser for SCS.groovy
 
 def originalColor = node.style.backgroundColor
 
-def previewPanel = new JPanel()
+def previewPanel = new JPanel(new FlowLayout(FlowLayout.CENTER,60,10))
 def originalColorLabel = getColorLabel('ORIGINAL', originalColor)
 def newColorLabel = getColorLabel('NEW', originalColor)
 
@@ -31,7 +34,7 @@ JLabel getColorLabel(String txt, Color color){
         preferredSize = new Dimension(80,40)
         background = color
         opaque = true
-        foreground = Color.BLACK
+        foreground = UITools.getTextColorForBackground(color)
         horizontalAlignment = JLabel.CENTER
     }
     return myLabel
@@ -71,6 +74,7 @@ colorChooser.with{
         addChangeListener { ChangeEvent e ->
             Color newColor = getColor()
             newColorLabel.background = newColor
+            newColorLabel.foreground = UITools.getTextColorForBackground(newColor)
         }
     }
     setChooserPanels(new ChoosePanelHS())
