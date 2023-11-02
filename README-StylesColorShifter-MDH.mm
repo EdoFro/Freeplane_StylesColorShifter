@@ -213,6 +213,9 @@ blockquote {
 </stylenode>
 </map_styles>
 </hook>
+<attribute NAME="MarkdownRootFolder" VALUE="file:/C:/Users/efroh/GitHub/Freeplane_StylesColorShifter/" OBJECT="java.net.URI|file:/C:/Users/efroh/GitHub/Freeplane_StylesColorShifter/"/>
+<attribute NAME="MDHGithubBranch" VALUE=""/>
+<attribute NAME="MDHTargetRootPath" VALUE=""/>
 <node TEXT="README.MD" POSITION="bottom_or_right" ID="ID_1054457075" LINK="README.MD"/>
 <node TEXT="README.MD" STYLE_REF="MarkdownHelperNode" POSITION="bottom_or_right" ID="ID_1496826546" LINK="file:/C:/Users/efroh/GitHub/Freeplane_StylesColorShifter/README.MD">
 <attribute NAME="headersToUnderline" VALUE="0" OBJECT="org.freeplane.features.format.FormattedNumber|0|#0.####"/>
@@ -237,9 +240,15 @@ blockquote {
 <text>= edofro.MarkDownHelper.MDH.imageLink(node,true)</text></richcontent>
 <node TEXT="= edofro.MarkDownHelper.MDH.linkedNodeText(node)" STYLE_REF="MarkdownHelperLink" ID="ID_1937718710" LINK="#ID_1530354553"/>
 </node>
+<node TEXT="horizontal line" STYLE_REF="MarkdownHelperNode" ID="ID_413993909"><richcontent TYPE="NOTE">
+<text>-----</text></richcontent>
+</node>
 <node TEXT="local image" STYLE_REF="MarkdownHelperNode" ID="ID_874769540"><richcontent TYPE="NOTE" CONTENT-TYPE="plain/auto">
 <text>= edofro.MarkDownHelper.MDH.imageLink(node,true)</text></richcontent>
 <node TEXT="= edofro.MarkDownHelper.MDH.linkedNodeText(node)" STYLE_REF="MarkdownHelperLink" ID="ID_337926262" LINK="#ID_1411986719"/>
+</node>
+<node TEXT="horizontal line" STYLE_REF="MarkdownHelperNode" ID="ID_178523477"><richcontent TYPE="NOTE">
+<text>-----</text></richcontent>
 </node>
 <node TEXT="Status" ID="ID_276284645">
 <node TEXT="table" STYLE_REF="MarkdownHelperNode" ID="ID_201597321"><richcontent TYPE="NOTE">
@@ -312,7 +321,7 @@ blockquote {
 <node TEXT="Sample video:" ID="ID_1337652780"/>
 <node TEXT="local image" STYLE_REF="MarkdownHelperNode" ID="ID_313323828"><richcontent TYPE="NOTE">
 <text>= edofro.MarkDownHelper.MDH.imageLink(node,true)</text></richcontent>
-<node TEXT="= edofro.MarkDownHelper.MDH.linkedNodeText(node)" STYLE_REF="MarkdownHelperLink" ID="ID_1236202221" LINK="#ID_1365729725"/>
+<node TEXT="= edofro.MarkDownHelper.MDH.linkedNodeText(node)" STYLE_REF="MarkdownHelperLink" POSITION="bottom_or_right" ID="ID_747714015" LINK="#ID_857079340"/>
 </node>
 </node>
 <node TEXT="Random shift of colors" ID="ID_1243708644">
@@ -320,6 +329,7 @@ blockquote {
 <node TEXT="Sample video:" ID="ID_347270692"/>
 <node TEXT="local image" STYLE_REF="MarkdownHelperNode" ID="ID_1432745444"><richcontent TYPE="NOTE">
 <text>= edofro.MarkDownHelper.MDH.imageLink(node,true)</text></richcontent>
+<node TEXT="= edofro.MarkDownHelper.MDH.linkedNodeText(node)" STYLE_REF="MarkdownHelperLink" POSITION="bottom_or_right" ID="ID_1236202221" LINK="#ID_1365729725"/>
 </node>
 </node>
 </node>
@@ -406,9 +416,7 @@ before the actual namefilter setting)
 -----------------------------------------------------
 
 </text></richcontent>
-<node TEXT="ColorShifterDialog.mp4" ID="ID_857079340" LINK="resources/ColorShifterDialog.mp4">
-<node TEXT="= edofro.MarkDownHelper.MDH.linkedNodeText(node)" STYLE_REF="MarkdownHelperLink" ID="ID_747714015" LINK="#ID_857079340"/>
-</node>
+<node TEXT="ColorShifterDialog.mp4" ID="ID_857079340" LINK="resources/ColorShifterDialog.mp4"/>
 <node TEXT="RandomColors.mp4" ID="ID_1365729725" LINK="resources/RandomColors.mp4"/>
 <node TEXT="Test shift colors.mm" ID="ID_777523337" LINK="resources/Test%20shift%20colors.mm"/>
 <node TEXT="lightNord.png" ID="ID_1411986719" LINK="resources/lightNord.png"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/markdown">

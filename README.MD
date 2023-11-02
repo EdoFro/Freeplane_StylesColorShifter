@@ -6,7 +6,11 @@ This add-on allows to "shift" the colors of the template to adapt the mind map t
 
 ![darkPurple.png](resources/darkPurple.png)
 
+-----
+
 ![lightNord.png](resources/lightNord.png)
+
+-----
 
 ## 1. Status
 
@@ -53,7 +57,7 @@ The dialog:
 
 Sample video:
 
-![RandomColors.mp4](resources/RandomColors.mp4)
+![ColorShifterDialog.mp4](resources/ColorShifterDialog.mp4)
 
 ### 2.2. Random shift of colors
 
@@ -61,11 +65,5 @@ You can randomly shift the colors of your mind map:
 
 Sample video:
 
-!
-
-----
-
---- No file found!! ---
-
-----
+![RandomColors.mp4](resources/RandomColors.mp4)
 
