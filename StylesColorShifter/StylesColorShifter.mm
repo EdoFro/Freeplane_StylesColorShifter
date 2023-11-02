@@ -1,17 +1,17 @@
 <map version="freeplane 1.11.5">
 <!--To view this file, download free mind mapping software Freeplane from https://www.freeplane.org -->
-<node TEXT="StylesColorShifter" LOCALIZED_STYLE_REF="AutomaticLayout.level.root" ID="ID_1090958577" LINK="https://github.com/EdoFro/Freeplane_StylesColorShifter">
+<node TEXT="StylesColorShifter" LOCALIZED_STYLE_REF="AutomaticLayout.level.root" FOLDED="false" ID="ID_1090958577" LINK="https://github.com/EdoFro/Freeplane_StylesColorShifter">
 <hook NAME="accessories/plugins/AutomaticLayout.properties" VALUE="ALL"/>
 <font BOLD="true"/>
 <hook NAME="MapStyle" background="#002b36" zoom="0.826">
-    <properties show_icon_for_attributes="true" edgeColorConfiguration="#808080ff,#ff0000ff,#0000ffff,#00ff00ff,#ff00ffff,#00ffffff,#7c0000ff,#00007cff,#007c00ff,#7c007cff,#007c7cff,#7c7c00ff" show_note_icons="true" fit_to_viewport="false" associatedTemplateLocation="template:/dark_solarized_AddOn_template.mm" mapUsesOwnSaveOptions="true" save_folding="never_save_folding" save_last_visited_node="default" save_modification_times="false"/>
+    <properties show_icon_for_attributes="true" edgeColorConfiguration="#808080ff,#ff0000ff,#0000ffff,#00ff00ff,#ff00ffff,#00ffffff,#7c0000ff,#00007cff,#007c00ff,#7c007cff,#007c7cff,#7c7c00ff" mapUsesOwnSaveOptions="true" save_modification_times="false" save_last_visited_node="default" show_note_icons="true" associatedTemplateLocation="template:/dark_solarized_AddOn_template.mm" save_folding="save_folding_if_map_is_changed" fit_to_viewport="false"/>
 
 <map_styles>
 <stylenode LOCALIZED_TEXT="styles.root_node" STYLE="oval" UNIFORM_SHAPE="true" VGAP_QUANTITY="24 pt">
 <font SIZE="24"/>
 <stylenode LOCALIZED_TEXT="styles.predefined" POSITION="bottom_or_right" STYLE="bubble">
 <stylenode LOCALIZED_TEXT="default" ID="ID_1664261437" ICON_SIZE="12 pt" FORMAT_AS_HYPERLINK="false" COLOR="#002b36" BACKGROUND_COLOR="#fdf6e3" STYLE="bubble" SHAPE_HORIZONTAL_MARGIN="8 pt" SHAPE_VERTICAL_MARGIN="5 pt" BORDER_WIDTH_LIKE_EDGE="false" BORDER_WIDTH="1.9 px" BORDER_COLOR_LIKE_EDGE="false" BORDER_COLOR="#f0f0f0" BORDER_DASH_LIKE_EDGE="true" BORDER_DASH="SOLID" VGAP_QUANTITY="3 pt">
-<arrowlink SHAPE="CUBIC_CURVE" COLOR="#fdf6e3" WIDTH="2" TRANSPARENCY="255" DASH="" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_1664261437" STARTINCLINATION="132.75 pt;-28.5 pt;" ENDINCLINATION="132.75 pt;24 pt;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
+<arrowlink SHAPE="CUBIC_CURVE" COLOR="#fdf6e3" WIDTH="2" TRANSPARENCY="255" DASH="" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_1664261437" STARTINCLINATION="132.75 pt;-21.75 pt;" ENDINCLINATION="132.75 pt;24 pt;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
 <font NAME="SansSerif" SIZE="11" BOLD="false" STRIKETHROUGH="false" ITALIC="false"/>
 <edge STYLE="bezier" COLOR="#93a1a1" WIDTH="3" DASH="SOLID"/>
 <richcontent TYPE="DETAILS" CONTENT-TYPE="plain/auto"/>
@@ -162,7 +162,7 @@
   </body>
 </html>
 </richcontent>
-<node TEXT="description" POSITION="top_or_left" ID="ID_1305264076"><richcontent TYPE="NOTE">
+<node TEXT="description" FOLDED="true" POSITION="top_or_left" ID="ID_1305264076"><richcontent TYPE="NOTE">
 <html>
   <head>
     
@@ -180,9 +180,9 @@
   </body>
 </html>
 </richcontent>
-<node TEXT="The idea of this add-on is that it allows to &quot;shift&quot; the colors of the template to adapt the mind map to the user&apos;s taste and/or to the style required by the mindmaps content." ID="ID_1948288289"/>
+<node TEXT="This add-on allows to &quot;shift&quot; the colors of the template to adapt the mind map to the user&apos;s taste and/or to the style required by the mindmaps content." ID="ID_1948288289"/>
 </node>
-<node TEXT="changes" POSITION="top_or_left" ID="ID_1079303983"><richcontent TYPE="NOTE">
+<node TEXT="changes" FOLDED="true" POSITION="top_or_left" ID="ID_1079303983"><richcontent TYPE="NOTE">
 <html>
   <head>
     
@@ -194,11 +194,11 @@
   </body>
 </html>
 </richcontent>
-<node TEXT="v0.0.1" ID="ID_1626673153">
+<node TEXT="v0.0.1" FOLDED="true" ID="ID_1626673153">
 <node TEXT="initial release" ID="ID_1552678462"/>
 </node>
 </node>
-<node TEXT="license" POSITION="top_or_left" ID="ID_1449574501"><richcontent TYPE="NOTE">
+<node TEXT="license" FOLDED="true" POSITION="top_or_left" ID="ID_1449574501"><richcontent TYPE="NOTE">
 <html>
   <head>
     
@@ -216,7 +216,7 @@
   </body>
 </html>
 </richcontent>
-<node TEXT="MIT License&#xa;&#xa;Copyright (c) 2023 Eduardo Frohlich.&#xa;&#xa;Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the &quot;Software&quot;), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:&#xa;&#xa;The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.&#xa;&#xa;THE SOFTWARE IS PROVIDED &quot;AS IS&quot;, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE." ID="ID_1254344993"/>
+<node TEXT="MIT License&#xa;&#xa;Copyright (c) 2023 Eduardo Frohlich.&#xa;&#xa;Permission is hereby granted, free of charge, to any person obtaining a copy&#xa;of this software and associated documentation files (the &quot;Software&quot;), to deal&#xa;in the Software without restriction, including without limitation the rights to use,&#xa;copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the&#xa;Software, and to permit persons to whom the Software is furnished to do so,&#xa;subject to the following conditions:&#xa;&#xa;The above copyright notice and this permission notice shall be included in all&#xa;copies or substantial portions of the Software.&#xa;&#xa;THE SOFTWARE IS PROVIDED &quot;AS IS&quot;, WITHOUT WARRANTY OF ANY&#xa;KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE&#xa;WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR&#xa;PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE&#xa;AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM,&#xa;DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF&#xa;CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN&#xa;CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER&#xa;DEALINGS IN THE SOFTWARE." ID="ID_1254344993" MAX_WIDTH="50 cm"/>
 </node>
 <node TEXT="preferences.xml" POSITION="top_or_left" ID="ID_159971938"><richcontent TYPE="NOTE">
 <html>
@@ -381,8 +381,10 @@
 </html>
 </richcontent>
 <node TEXT="en" POSITION="top_or_left" ID="ID_346064094">
-<attribute_layout NAME_WIDTH="96 pt" VALUE_WIDTH="104.25 pt"/>
-<attribute NAME="addons.${name}" VALUE="StylesColorShifter"/>
+<attribute_layout NAME_WIDTH="185.24999 pt" VALUE_WIDTH="132.75 pt"/>
+<attribute NAME="addons.${name}" VALUE="Styles Color Shifter"/>
+<attribute NAME="addons.${name}.ColorShifterDialog" VALUE="Open Color shifter dialog"/>
+<attribute NAME="addons.${name}.RandomColorShifter" VALUE="style colors random shift"/>
 </node>
 </node>
 <node TEXT="deinstall" POSITION="top_or_left" ID="ID_66645068"><richcontent TYPE="NOTE">
@@ -397,7 +399,11 @@
   </body>
 </html>
 </richcontent>
+<attribute_layout NAME_WIDTH="52.5 pt" VALUE_WIDTH="329.99999 pt"/>
 <attribute NAME="delete" VALUE="${installationbase}/addons/${name}.script.xml"/>
+<attribute NAME="delete" VALUE="${installationbase}/addons/${name}/lib/StylesColorShifter.jar"/>
+<attribute NAME="delete" VALUE="${installationbase}/addons/${name}/scripts/ColorShifterDialog.groovy"/>
+<attribute NAME="delete" VALUE="${installationbase}/addons/${name}/scripts/RandomColorShifter.groovy"/>
 </node>
 <node TEXT="scripts" POSITION="bottom_or_right" ID="ID_810469296"><richcontent TYPE="NOTE">
 <html>
@@ -516,6 +522,30 @@
   </body>
 </html>
 </richcontent>
+<node TEXT="ColorShifterDialog.groovy" ID="ID_176433615">
+<attribute_layout NAME_WIDTH="218.24999 pt" VALUE_WIDTH="176.24999 pt"/>
+<attribute NAME="menuTitleKey" VALUE="addons.${name}.ColorShifterDialog"/>
+<attribute NAME="menuLocation" VALUE="${addonsMenu}/addons.${name}"/>
+<attribute NAME="executionMode" VALUE="on_single_node"/>
+<attribute NAME="keyboardShortcut" VALUE=""/>
+<attribute NAME="execute_scripts_without_asking" VALUE="true"/>
+<attribute NAME="execute_scripts_without_file_restriction" VALUE="true"/>
+<attribute NAME="execute_scripts_without_write_restriction" VALUE="false"/>
+<attribute NAME="execute_scripts_without_exec_restriction" VALUE="false"/>
+<attribute NAME="execute_scripts_without_network_restriction" VALUE="false"/>
+</node>
+<node TEXT="RandomColorShifter.groovy" ID="ID_1053943684">
+<attribute_layout NAME_WIDTH="218.24999 pt" VALUE_WIDTH="185.24999 pt"/>
+<attribute NAME="menuTitleKey" VALUE="addons.${name}.RandomColorShifter"/>
+<attribute NAME="menuLocation" VALUE="${addonsMenu}/addons.${name}"/>
+<attribute NAME="executionMode" VALUE="on_single_node"/>
+<attribute NAME="keyboardShortcut" VALUE=""/>
+<attribute NAME="execute_scripts_without_asking" VALUE="true"/>
+<attribute NAME="execute_scripts_without_file_restriction" VALUE="true"/>
+<attribute NAME="execute_scripts_without_write_restriction" VALUE="false"/>
+<attribute NAME="execute_scripts_without_exec_restriction" VALUE="false"/>
+<attribute NAME="execute_scripts_without_network_restriction" VALUE="false"/>
+</node>
 </node>
 <node TEXT="lib" POSITION="bottom_or_right" ID="ID_1236497070"><richcontent TYPE="NOTE">
 <html>
@@ -553,6 +583,7 @@
   </body>
 </html>
 </richcontent>
+<node TEXT="StylesColorShifter.jar" ID="ID_705278595"/>
 </node>
 <node TEXT="zips" POSITION="bottom_or_right" ID="ID_514795073"><richcontent TYPE="NOTE">
 <html>
