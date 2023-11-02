@@ -4,7 +4,25 @@ This add-on allows to "shift" the colors of the template to adapt the mind map t
 
 -----
 
-![lightNord.png](resources/lightNord.png)
+![darkPurple.png](
+
+----
+
+--- No Markdown root folder defined!! ---
+
+----
+
+)
+
+![lightNord.png](
+
+----
+
+--- No Markdown root folder defined!! ---
+
+----
+
+)
 
 ## 1. Status
 
@@ -15,7 +33,7 @@ This add-on allows to "shift" the colors of the template to adapt the mind map t
 |Usefulness (2)|I will report after a while|
 |my opinion|Interesting, funny|
 
-<details><summary><h3>1.1. Table explanation</h3></summary>
+<details><summary><h3>1.1. Status table explanation</h3></summary>
 
 I added this table to give some more information about the addon, its development status and my own impression of its usefulness.
 
@@ -40,4 +58,46 @@ I added this table to give some more information about the addon, its developmen
 </details>
 
 -----
+
+## 2. Features
+
+### 2.1. Shifting colors using the dialog
+
+The dialog:
+
+![dialog.png](
+
+----
+
+--- No Markdown root folder defined!! ---
+
+----
+
+)
+
+Sample video:
+
+![RandomColors.mp4](
+
+----
+
+--- No Markdown root folder defined!! ---
+
+----
+
+)
+
+### 2.2. Random shift of colors
+
+You can randomly shift the colors of your mind map:
+
+Sample video:
+
+!
+
+----
+
+--- No file found!! ---
+
+----
 

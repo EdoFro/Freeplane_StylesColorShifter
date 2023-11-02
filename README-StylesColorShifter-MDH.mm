@@ -220,18 +220,26 @@ blockquote {
 <attribute NAME="headerNumbering" VALUE="true"/>
 <attribute NAME="topHeadersNumbered" VALUE="false"/>
 <attribute NAME="topHeaderStartingNumber" VALUE="1" OBJECT="org.freeplane.features.format.FormattedNumber|1"/>
-<attribute NAME="fileLinksRelative" VALUE="false"/>
+<attribute NAME="fileLinksRelative" VALUE="true"/>
 <attribute NAME="lineOverHeader" VALUE="true"/>
 <attribute NAME="ignoreHeaderDetails" VALUE="true"/>
 <attribute NAME="ignoreHeaderNotes" VALUE="true"/>
 <attribute NAME="ignoreLeafDetails" VALUE="false"/>
 <attribute NAME="ignoreHeaderImageObjects" VALUE="false"/>
-<richcontent TYPE="NOTE">
+<richcontent TYPE="NOTE" CONTENT-TYPE="plain/auto">
 <text>= edofro.MarkDownHelper.MDH.document(node)</text></richcontent>
 <node TEXT="Styles Color Shifter" ID="ID_1673406844">
 <node TEXT="This add-on allows to &quot;shift&quot; the colors of the template to adapt the mind map to the user&apos;s taste and/or to the style required by the mindmaps content." ID="ID_1948288289"/>
 <node TEXT="horizontal line" STYLE_REF="MarkdownHelperNode" ID="ID_256940880"><richcontent TYPE="NOTE">
 <text>-----</text></richcontent>
+</node>
+<node TEXT="local image" STYLE_REF="MarkdownHelperNode" ID="ID_1765320457"><richcontent TYPE="NOTE" CONTENT-TYPE="plain/auto">
+<text>= edofro.MarkDownHelper.MDH.imageLink(node,true)</text></richcontent>
+<node TEXT="= edofro.MarkDownHelper.MDH.linkedNodeText(node)" STYLE_REF="MarkdownHelperLink" ID="ID_1937718710" LINK="#ID_1530354553"/>
+</node>
+<node TEXT="local image" STYLE_REF="MarkdownHelperNode" ID="ID_874769540"><richcontent TYPE="NOTE" CONTENT-TYPE="plain/auto">
+<text>= edofro.MarkDownHelper.MDH.imageLink(node,true)</text></richcontent>
+<node TEXT="= edofro.MarkDownHelper.MDH.linkedNodeText(node)" STYLE_REF="MarkdownHelperLink" ID="ID_337926262" LINK="#ID_1411986719"/>
 </node>
 <node TEXT="Status" ID="ID_276284645">
 <node TEXT="table" STYLE_REF="MarkdownHelperNode" ID="ID_201597321"><richcontent TYPE="NOTE">
@@ -257,9 +265,9 @@ blockquote {
 <node TEXT="Interesting, funny" ID="ID_1438485510"/>
 </node>
 </node>
-<node TEXT="I added this table to give some more information about the addon, its development status and my own impression of its usefulness." ID="ID_1141638869"/>
-<node TEXT="Table explanation" ID="ID_634961425">
+<node TEXT="Status table explanation" ID="ID_634961425">
 <icon BUILTIN="emoji-1F53B"/>
+<node TEXT="I added this table to give some more information about the addon, its development status and my own impression of its usefulness." ID="ID_1141638869"/>
 <node TEXT="list" STYLE_REF="MarkdownHelperNode" POSITION="bottom_or_right" ID="ID_927087572">
 <icon BUILTIN="emoji-1F522"/>
 <richcontent TYPE="NOTE">
@@ -293,6 +301,27 @@ blockquote {
 </node>
 <node TEXT="horizontal line" STYLE_REF="MarkdownHelperNode" ID="ID_276704639"><richcontent TYPE="NOTE">
 <text>-----</text></richcontent>
+</node>
+<node TEXT="Features" ID="ID_1291992662">
+<node TEXT="Shifting colors using the dialog" ID="ID_498330386">
+<node TEXT="The dialog:" ID="ID_1365839063"/>
+<node TEXT="local image" STYLE_REF="MarkdownHelperNode" ID="ID_1990107834"><richcontent TYPE="NOTE">
+<text>= edofro.MarkDownHelper.MDH.imageLink(node,true)</text></richcontent>
+<node TEXT="= edofro.MarkDownHelper.MDH.linkedNodeText(node)" STYLE_REF="MarkdownHelperLink" ID="ID_1017488952" LINK="#ID_1898301151"/>
+</node>
+<node TEXT="Sample video:" ID="ID_1337652780"/>
+<node TEXT="local image" STYLE_REF="MarkdownHelperNode" ID="ID_313323828"><richcontent TYPE="NOTE">
+<text>= edofro.MarkDownHelper.MDH.imageLink(node,true)</text></richcontent>
+<node TEXT="= edofro.MarkDownHelper.MDH.linkedNodeText(node)" STYLE_REF="MarkdownHelperLink" ID="ID_1236202221" LINK="#ID_1365729725"/>
+</node>
+</node>
+<node TEXT="Random shift of colors" ID="ID_1243708644">
+<node TEXT="You can randomly shift the colors of your mind map:" ID="ID_982808316"/>
+<node TEXT="Sample video:" ID="ID_347270692"/>
+<node TEXT="local image" STYLE_REF="MarkdownHelperNode" ID="ID_1432745444"><richcontent TYPE="NOTE">
+<text>= edofro.MarkDownHelper.MDH.imageLink(node,true)</text></richcontent>
+</node>
+</node>
 </node>
 </node>
 </node>
@@ -377,11 +406,49 @@ before the actual namefilter setting)
 -----------------------------------------------------
 
 </text></richcontent>
-<node TEXT="ColorShifterDialog.mp4" ID="ID_857079340" LINK="resources/ColorShifterDialog.mp4"/>
+<node TEXT="ColorShifterDialog.mp4" ID="ID_857079340" LINK="resources/ColorShifterDialog.mp4">
+<node TEXT="= edofro.MarkDownHelper.MDH.linkedNodeText(node)" STYLE_REF="MarkdownHelperLink" ID="ID_747714015" LINK="#ID_857079340"/>
+</node>
 <node TEXT="RandomColors.mp4" ID="ID_1365729725" LINK="resources/RandomColors.mp4"/>
 <node TEXT="Test shift colors.mm" ID="ID_777523337" LINK="resources/Test%20shift%20colors.mm"/>
+<node TEXT="lightNord.png" ID="ID_1411986719" LINK="resources/lightNord.png"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/markdown">
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      =&quot;![](${node.link.uri})&quot;
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node TEXT="darkPurple.png" ID="ID_1530354553" LINK="resources/darkPurple.png"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/markdown">
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      =&quot;![](${node.link.uri})&quot;
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node TEXT="dialog.png" ID="ID_1898301151" LINK="resources/dialog.png"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/markdown">
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      =&quot;![](${node.link.uri})&quot;
+    </p>
+  </body>
+</html></richcontent>
+</node>
 <node TEXT="new imported files" STYLE_REF="newFolderImport" ID="ID_406625579">
-<attribute NAME="log_MDI" VALUE="2" OBJECT="org.freeplane.features.format.FormattedNumber|2"/>
+<attribute NAME="log_MDI" VALUE="2" OBJECT="org.freeplane.features.format.FormattedObject|org.freeplane.plugin.script.proxy.ConvertibleText&amp;#x7c;2|number:decimal:#0.####"/>
 <richcontent TYPE="NOTE">
 <html>
   <head>
@@ -389,7 +456,7 @@ before the actual namefilter setting)
   </head>
   <body>
     <p>
-      Inated:&#xa0;&#xa0;&#xa0;2023-11-02&#xa0;&#xa0;16:47:55
+      Inated:&#xa0;&#xa0;&#xa0;2023-11-02&#xa0;&#xa0;20:14:03
     </p>
     <p>
       
@@ -404,10 +471,10 @@ before the actual namefilter setting)
       &#xa0;0 link(s) corrected in nodes
     </p>
     <p>
-      &#xa0;3 new file(s) imported as node(s)&#xa0;
+      &#xa0;0 new file(s) imported as node(s)&#xa0;
     </p>
     <p>
-      &#xa0;0 node(s) moved/renamed in drive
+      &#xa0;3 node(s) moved/renamed in drive
     </p>
     <p>
       &#xa0;0 node(s) couldn't be moved/renamed in drive (marked as 'notMovedRenamed')
@@ -425,7 +492,7 @@ before the actual namefilter setting)
       
     </p>
     <p>
-      5.4 seconds
+      2.2 seconds
     </p>
     <p>
       
