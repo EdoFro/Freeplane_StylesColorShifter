@@ -4,6 +4,8 @@ This add-on allows to "shift" the colors of the template to adapt the mind map t
 
 -----
 
+![lightNord.png](resources/lightNord.png)
+
 ## 1. Status
 
 ||comment|
@@ -13,9 +15,9 @@ This add-on allows to "shift" the colors of the template to adapt the mind map t
 |Usefulness (2)|I will report after a while|
 |my opinion|Interesting, funny|
 
-I added this table to give some more information about the addon, its development status and my own impression of its usefulness.
-
 <details><summary><h3>1.1. Table explanation</h3></summary>
+
+I added this table to give some more information about the addon, its development status and my own impression of its usefulness.
 
 1. Status
    - Status of the project
