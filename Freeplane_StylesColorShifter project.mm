@@ -6396,7 +6396,7 @@ before the actual namefilter setting)
   </body>
 </html></richcontent>
 </node>
-<node TEXT="ColorShifterDialog.groovy" STYLE_REF="freshNew" ID="ID_1212492384" LINK="StylesColorShifter/scripts/ColorShifterDialog.groovy"/>
+<node TEXT="ColorShifterDialog.groovy" ID="ID_1212492384" LINK="StylesColorShifter/scripts/ColorShifterDialog.groovy"/>
 </node>
 <node TEXT="zips" FOLDED="true" ID="ID_16963129" LINK="StylesColorShifter/zips/">
 <node TEXT="icons" ID="ID_907668637" LINK="StylesColorShifter/zips/icons/"><richcontent TYPE="DETAILS">
@@ -6726,12 +6726,13 @@ before the actual namefilter setting)
 <node TEXT="gradlew" ID="ID_464157282" LINK="StylesColorShifter/gradlew"/>
 <node TEXT="gradlew.bat" ID="ID_1460680779" LINK="StylesColorShifter/gradlew.bat"/>
 </node>
-<node TEXT="resources" FOLDED="true" ID="ID_834164356" LINK="resources/">
+<node TEXT="resources" ID="ID_834164356" LINK="resources/">
 <node TEXT="Test shift colors.mm" POSITION="bottom_or_right" ID="ID_333889739" LINK="resources/Test%20shift%20colors.mm"/>
-<node TEXT="RandomColors.mp4" POSITION="bottom_or_right" ID="ID_649514457" LINK="resources/RandomColors.mp4"/>
-<node TEXT="ColorShifterDialog.mp4" ID="ID_48930013" LINK="resources/ColorShifterDialog.mp4"/>
+<node TEXT="darkPurple.png" ID="ID_1256571099" LINK="resources/darkPurple.png"/>
+<node TEXT="dialog.png" ID="ID_1302734578" LINK="resources/dialog.png"/>
+<node TEXT="lightNord.png" ID="ID_434971385" LINK="resources/lightNord.png"/>
 </node>
-<node TEXT="ignoredByGitHub" FOLDED="true" ID="ID_158482988" LINK="ignoredByGitHub/"><richcontent TYPE="DETAILS">
+<node TEXT="ignoredByGitHub" ID="ID_158482988" LINK="ignoredByGitHub/"><richcontent TYPE="DETAILS">
 <html>
   <head>
     
@@ -7017,6 +7018,8 @@ before the actual namefilter setting)
   </body>
 </html></richcontent>
 </node>
+<node TEXT="RandomColors.mp4" POSITION="bottom_or_right" ID="ID_649514457" LINK="ignoredByGitHub/RandomColors.mp4"/>
+<node TEXT="ColorShifterDialog.mp4" POSITION="bottom_or_right" ID="ID_48930013" LINK="ignoredByGitHub/ColorShifterDialog.mp4"/>
 </node>
 <node TEXT=".gitignore" ID="ID_1303065106" LINK=".gitignore"><richcontent TYPE="NOTE">
 <html>
@@ -7243,7 +7246,7 @@ justa a **dummy** markdown file
 </html></richcontent>
 </node>
 <node TEXT="new imported files" STYLE_REF="newFolderImport" ID="ID_478156398">
-<attribute NAME="log_MDI" VALUE="org.freeplane.plugin.script.proxy.ConvertibleText|2" OBJECT="org.freeplane.features.format.FormattedObject|java.lang.String&amp;#x7c;org.freeplane.plugin.script.proxy.ConvertibleText&amp;#x7c;2|number:decimal:#0.####"/>
+<attribute NAME="log_MDI" VALUE="2" OBJECT="org.freeplane.features.format.FormattedObject|org.freeplane.plugin.script.proxy.ConvertibleNumber&amp;#x7c;2|number:decimal:#0.####"/>
 <richcontent TYPE="NOTE">
 <html>
   <head>
@@ -7251,7 +7254,7 @@ justa a **dummy** markdown file
   </head>
   <body>
     <p>
-      Inated:&#xa0;&#xa0;&#xa0;2023-11-02&#xa0;&#xa0;16:46:16
+      Inated:&#xa0;&#xa0;&#xa0;2023-11-03&#xa0;&#xa0;15:57:41
     </p>
     <p>
       
@@ -7266,10 +7269,10 @@ justa a **dummy** markdown file
       &#xa0;0 link(s) corrected in nodes
     </p>
     <p>
-      &#xa0;1 new file(s) imported as node(s)&#xa0;
+      &#xa0;0 new file(s) imported as node(s)&#xa0;
     </p>
     <p>
-      &#xa0;1 node(s) moved/renamed in drive
+      &#xa0;2 node(s) moved/renamed in drive
     </p>
     <p>
       &#xa0;0 node(s) couldn't be moved/renamed in drive (marked as 'notMovedRenamed')
@@ -7308,8 +7311,8 @@ justa a **dummy** markdown file
       No failed operation in drive
     </p>
   </body>
-</html></richcontent>
-<node TEXT="resources" ID="ID_1997312446" LINK="#ID_834164356"/>
+</html>
+</richcontent>
 </node>
 <node TEXT="versión instalada en AddOns" STYLE_REF="locked" ID="ID_157019487"/>
 <node TEXT="Tareas" STYLE_REF="Organizador" ID="ID_1067967208">
