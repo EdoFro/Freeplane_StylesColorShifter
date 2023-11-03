@@ -31,14 +31,14 @@
             <attribute_contains_condition ATTRIBUTE="modifiedFile" VALUE="true"/>
         </conditional_style>
     </conditional_styles>
-    <properties show_icon_for_attributes="true" edgeColorConfiguration="#808080ff,#ff0000ff,#0000ffff,#00ff00ff,#ff00ffff,#00ffffff,#7c0000ff,#00007cff,#007c00ff,#7c007cff,#007c7cff,#7c7c00ff" mapUsesOwnSaveOptions="true" save_modification_times="false" save_last_visited_node="default" show_note_icons="true" associatedTemplateLocation="template:/vis01%20light_nord_template%20vEdo%20v2.mm" save_folding="save_folding_if_map_is_changed" fit_to_viewport="false" MDI_template="v0.0.13"/>
+    <properties show_icon_for_attributes="true" edgeColorConfiguration="#808080ff,#ff0000ff,#0000ffff,#00ff00ff,#ff00ffff,#00ffffff,#7c0000ff,#00007cff,#007c00ff,#7c007cff,#007c7cff,#7c7c00ff" mapUsesOwnSaveOptions="true" save_modification_times="false" save_last_visited_node="default" show_note_icons="true" associatedTemplateLocation="template:/vis01%20light_nord_template%20vEdo%20v2.mm" MDI_template="v0.0.13" save_folding="save_folding_if_map_is_changed" fit_to_viewport="false"/>
 
 <map_styles>
 <stylenode LOCALIZED_TEXT="styles.root_node" ID="ID_118736178" STYLE="oval" UNIFORM_SHAPE="true" VGAP_QUANTITY="24 pt">
 <font SIZE="24"/>
 <stylenode LOCALIZED_TEXT="styles.predefined" POSITION="bottom_or_right" STYLE="bubble">
 <stylenode LOCALIZED_TEXT="default" ID="ID_506805493" ICON_SIZE="12 pt" FORMAT_AS_HYPERLINK="false" COLOR="#484747" BACKGROUND_COLOR="#efefef" STYLE="bubble" SHAPE_HORIZONTAL_MARGIN="5 px" SHAPE_VERTICAL_MARGIN="2 px" NUMBERED="false" FORMAT="STANDARD_FORMAT" TEXT_ALIGN="DEFAULT" TEXT_WRITING_DIRECTION="LEFT_TO_RIGHT" BORDER_WIDTH_LIKE_EDGE="false" BORDER_WIDTH="1.9 px" BORDER_COLOR_LIKE_EDGE="false" BORDER_COLOR="#8fbcbb" BORDER_DASH_LIKE_EDGE="true" BORDER_DASH="SOLID" VGAP_QUANTITY="2 px" COMMON_HGAP_QUANTITY="14 pt" CHILD_NODES_LAYOUT="AUTO">
-<arrowlink SHAPE="CUBIC_CURVE" COLOR="#bf5d3f" WIDTH="2" TRANSPARENCY="200" DASH="" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_506805493" STARTINCLINATION="45 pt;-12 pt;" ENDINCLINATION="57 pt;30 pt;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
+<arrowlink SHAPE="CUBIC_CURVE" COLOR="#bf5d3f" WIDTH="2" TRANSPARENCY="200" DASH="" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_506805493" STARTINCLINATION="45 pt;-11.25 pt;" ENDINCLINATION="57 pt;30 pt;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
 <font NAME="Dialog" SIZE="10" BOLD="false" STRIKETHROUGH="false" ITALIC="false"/>
 <edge STYLE="horizontal" COLOR="#2e3440" WIDTH="1" DASH="SOLID"/>
 <richcontent TYPE="DETAILS" CONTENT-TYPE="plain/auto"/>
@@ -319,18 +319,12 @@ blockquote {
 <node TEXT="= edofro.MarkDownHelper.MDH.linkedNodeText(node)" STYLE_REF="MarkdownHelperLink" ID="ID_1017488952" LINK="#ID_1898301151"/>
 </node>
 <node TEXT="Sample video:" ID="ID_1337652780"/>
-<node TEXT="local image" STYLE_REF="MarkdownHelperNode" ID="ID_313323828"><richcontent TYPE="NOTE">
-<text>= edofro.MarkDownHelper.MDH.imageLink(node,true)</text></richcontent>
-<node TEXT="= edofro.MarkDownHelper.MDH.linkedNodeText(node)" STYLE_REF="MarkdownHelperLink" POSITION="bottom_or_right" ID="ID_747714015" LINK="#ID_857079340"/>
-</node>
+<node TEXT="https://github.com/EdoFro/Freeplane_StylesColorShifter/assets/35700575/07636966-36b3-4df4-8a9a-1ef55a4e765c" POSITION="bottom_or_right" ID="ID_1690335532" LINK="https://github.com/EdoFro/Freeplane_StylesColorShifter/assets/35700575/07636966-36b3-4df4-8a9a-1ef55a4e765c"/>
 </node>
 <node TEXT="Random shift of colors" ID="ID_1243708644">
 <node TEXT="You can randomly shift the colors of your mind map:" ID="ID_982808316"/>
 <node TEXT="Sample video:" ID="ID_347270692"/>
-<node TEXT="local image" STYLE_REF="MarkdownHelperNode" ID="ID_1432745444"><richcontent TYPE="NOTE">
-<text>= edofro.MarkDownHelper.MDH.imageLink(node,true)</text></richcontent>
-<node TEXT="= edofro.MarkDownHelper.MDH.linkedNodeText(node)" STYLE_REF="MarkdownHelperLink" POSITION="bottom_or_right" ID="ID_1236202221" LINK="#ID_1365729725"/>
-</node>
+<node TEXT="https://github.com/EdoFro/Freeplane_StylesColorShifter/assets/35700575/092d7fb8-2184-4c8b-b8f3-f250d54ba3d9" POSITION="bottom_or_right" ID="ID_403180550" LINK="https://github.com/EdoFro/Freeplane_StylesColorShifter/assets/35700575/092d7fb8-2184-4c8b-b8f3-f250d54ba3d9"/>
 </node>
 </node>
 </node>
@@ -456,7 +450,7 @@ before the actual namefilter setting)
 </html></richcontent>
 </node>
 <node TEXT="new imported files" STYLE_REF="newFolderImport" ID="ID_406625579">
-<attribute NAME="log_MDI" VALUE="2" OBJECT="org.freeplane.features.format.FormattedObject|org.freeplane.plugin.script.proxy.ConvertibleText&amp;#x7c;2|number:decimal:#0.####"/>
+<attribute NAME="log_MDI" VALUE="org.freeplane.plugin.script.proxy.ConvertibleText|2" OBJECT="org.freeplane.features.format.FormattedObject|java.lang.String&amp;#x7c;org.freeplane.plugin.script.proxy.ConvertibleText&amp;#x7c;2|number:decimal:#0.####"/>
 <richcontent TYPE="NOTE">
 <html>
   <head>
@@ -518,8 +512,7 @@ before the actual namefilter setting)
       No failed operation in drive
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 </node>

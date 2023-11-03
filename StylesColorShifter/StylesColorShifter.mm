@@ -11,7 +11,7 @@
 <font SIZE="24"/>
 <stylenode LOCALIZED_TEXT="styles.predefined" POSITION="bottom_or_right" STYLE="bubble">
 <stylenode LOCALIZED_TEXT="default" ID="ID_1664261437" ICON_SIZE="12 pt" FORMAT_AS_HYPERLINK="false" COLOR="#002b36" BACKGROUND_COLOR="#fdf6e3" STYLE="bubble" SHAPE_HORIZONTAL_MARGIN="8 pt" SHAPE_VERTICAL_MARGIN="5 pt" BORDER_WIDTH_LIKE_EDGE="false" BORDER_WIDTH="1.9 px" BORDER_COLOR_LIKE_EDGE="false" BORDER_COLOR="#f0f0f0" BORDER_DASH_LIKE_EDGE="true" BORDER_DASH="SOLID" VGAP_QUANTITY="3 pt">
-<arrowlink SHAPE="CUBIC_CURVE" COLOR="#fdf6e3" WIDTH="2" TRANSPARENCY="255" DASH="" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_1664261437" STARTINCLINATION="132.75 pt;-21.75 pt;" ENDINCLINATION="132.75 pt;24 pt;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
+<arrowlink SHAPE="CUBIC_CURVE" COLOR="#fdf6e3" WIDTH="2" TRANSPARENCY="255" DASH="" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_1664261437" STARTINCLINATION="132.75 pt;-21 pt;" ENDINCLINATION="132.75 pt;24 pt;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
 <font NAME="SansSerif" SIZE="11" BOLD="false" STRIKETHROUGH="false" ITALIC="false"/>
 <edge STYLE="bezier" COLOR="#93a1a1" WIDTH="3" DASH="SOLID"/>
 <richcontent TYPE="DETAILS" CONTENT-TYPE="plain/auto"/>
@@ -178,8 +178,7 @@
       To translate the description you have to define a translation for the key 'addons.${name}.description'.
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <node TEXT="This add-on allows to &quot;shift&quot; the colors of the template to adapt the mind map to the user&apos;s taste and/or to the style required by the mindmaps content." ID="ID_1948288289"/>
 </node>
 <node TEXT="changes" FOLDED="true" POSITION="top_or_left" ID="ID_1079303983"><richcontent TYPE="NOTE">
@@ -192,8 +191,7 @@
       Change log of this add-on: append one node for each noteworthy version and put the details for each version into a child node.
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <node TEXT="v0.0.1" FOLDED="true" ID="ID_1626673153">
 <node TEXT="initial release" ID="ID_1552678462"/>
 </node>
@@ -214,8 +212,7 @@
       The License text has to be entered as a child of the <i>'license'</i>&#xa0;node, either as plain text or as HTML.
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <node TEXT="MIT License&#xa;&#xa;Copyright (c) 2023 Eduardo Frohlich.&#xa;&#xa;Permission is hereby granted, free of charge, to any person obtaining a copy&#xa;of this software and associated documentation files (the &quot;Software&quot;), to deal&#xa;in the Software without restriction, including without limitation the rights to use,&#xa;copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the&#xa;Software, and to permit persons to whom the Software is furnished to do so,&#xa;subject to the following conditions:&#xa;&#xa;The above copyright notice and this permission notice shall be included in all&#xa;copies or substantial portions of the Software.&#xa;&#xa;THE SOFTWARE IS PROVIDED &quot;AS IS&quot;, WITHOUT WARRANTY OF ANY&#xa;KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE&#xa;WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR&#xa;PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE&#xa;AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM,&#xa;DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF&#xa;CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN&#xa;CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER&#xa;DEALINGS IN THE SOFTWARE." ID="ID_1254344993" MAX_WIDTH="50 cm"/>
 </node>
 <node TEXT="preferences.xml" POSITION="top_or_left" ID="ID_159971938"><richcontent TYPE="NOTE">
@@ -324,8 +321,7 @@
       </tr>
     </table>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node TEXT="default.properties" POSITION="top_or_left" ID="ID_839369467"><richcontent TYPE="NOTE">
 <html>
@@ -345,8 +341,7 @@
       </li>
     </ul>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node TEXT="translations" POSITION="top_or_left" ID="ID_594190595"><richcontent TYPE="NOTE">
 <html>
@@ -378,8 +373,7 @@
       </li>
     </ul>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <node TEXT="en" POSITION="top_or_left" ID="ID_346064094">
 <attribute_layout NAME_WIDTH="185.24999 pt" VALUE_WIDTH="132.75 pt"/>
 <attribute NAME="addons.${name}" VALUE="Styles Color Shifter"/>
@@ -397,8 +391,7 @@
       List of files and/or directories to remove on uninstall
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <attribute_layout NAME_WIDTH="52.5 pt" VALUE_WIDTH="329.99999 pt"/>
 <attribute NAME="delete" VALUE="${installationbase}/addons/${name}.script.xml"/>
 <attribute NAME="delete" VALUE="${installationbase}/addons/${name}/lib/StylesColorShifter.jar"/>
@@ -520,8 +513,7 @@
       &#xa0;&#xa0;- In any case set execute_scripts_without_asking to true unless you want to annoy users.
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <node TEXT="ColorShifterDialog.groovy" ID="ID_176433615">
 <attribute_layout NAME_WIDTH="218.24999 pt" VALUE_WIDTH="176.24999 pt"/>
 <attribute NAME="menuTitleKey" VALUE="addons.${name}.ColorShifterDialog"/>
@@ -581,8 +573,7 @@
       &#xa0;- The files will be processed in the sequence as seen in the map.
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <node TEXT="StylesColorShifter.jar" ID="ID_705278595"/>
 </node>
 <node TEXT="zips" POSITION="bottom_or_right" ID="ID_514795073"><richcontent TYPE="NOTE">
@@ -619,8 +610,7 @@
       &#xa0;- The files will be processed in the sequence as seen in the map.
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <node TEXT="doc" ID="ID_1760264749"/>
 <node TEXT="icons" ID="ID_1130177956"/>
 <node TEXT="templates" ID="ID_1338591809"/>
@@ -655,8 +645,7 @@
       Images can be added automatically by releaseAddOn.groovy or must be uploaded into the map via the script <i>Tools-&gt;Scripts-&gt;Insert Binary</i>&#xa0;since they have to be (base64) encoded as simple strings.
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node TEXT="actions" POSITION="bottom_or_right" ID="ID_793423037"><richcontent TYPE="NOTE">
 <html>
@@ -666,8 +655,7 @@
   <body>
     Direct links to menu commands
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <node TEXT="Build add-on" ID="ID_1686038179" LINK="menuitem:_addons.devtools.checkAddOn_on_single_node"/>
 <node TEXT="Package add-on for publication" ID="ID_1281222186" LINK="menuitem:_addons.devtools.releaseAddOn_on_single_node"/>
 <node TEXT="Export Translations" ID="ID_990812433" LINK="menuitem:_addons.devtools.exportTranslations_on_single_node"/>

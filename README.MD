@@ -57,7 +57,7 @@ The dialog:
 
 Sample video:
 
-![ColorShifterDialog.mp4](resources/ColorShifterDialog.mp4)
+https://github.com/EdoFro/Freeplane_StylesColorShifter/assets/35700575/07636966-36b3-4df4-8a9a-1ef55a4e765c
 
 ### 2.2. Random shift of colors
 
@@ -65,5 +65,5 @@ You can randomly shift the colors of your mind map:
 
 Sample video:
 
-![RandomColors.mp4](resources/RandomColors.mp4)
+https://github.com/EdoFro/Freeplane_StylesColorShifter/assets/35700575/092d7fb8-2184-4c8b-b8f3-f250d54ba3d9
 
