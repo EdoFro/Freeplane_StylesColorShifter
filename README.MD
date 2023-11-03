@@ -2,6 +2,10 @@
 
 This add-on allows to "shift" the colors of the template to adapt the mind map to the user's taste and/or to the style required by the mindmaps content.
 
+## IMPORTANT:
+
+This add-on requires **Freeplane v1.11.8-pre6 or newer**.
+
 -----
 
 ![darkPurple.png](resources/darkPurple.png)
@@ -12,7 +16,7 @@ This add-on allows to "shift" the colors of the template to adapt the mind map t
 
 -----
 
-## 1. Status
+## Status
 
 ||comment|
 |----|----|
@@ -21,7 +25,7 @@ This add-on allows to "shift" the colors of the template to adapt the mind map t
 |Usefulness (2)|I will report after a while|
 |my opinion|Interesting, funny|
 
-<details><summary><h3>1.1. Status table explanation</h3></summary>
+<details><summary><h3>Status table explanation</h3></summary>
 
 I added this table to give some more information about the addon, its development status and my own impression of its usefulness.
 
@@ -47,9 +51,9 @@ I added this table to give some more information about the addon, its developmen
 
 -----
 
-## 2. Features
+## Features
 
-### 2.1. Shifting colors using the dialog
+### Shifting colors using the dialog
 
 The dialog:
 
@@ -59,7 +63,7 @@ Sample video:
 
 https://github.com/EdoFro/Freeplane_StylesColorShifter/assets/35700575/07636966-36b3-4df4-8a9a-1ef55a4e765c
 
-### 2.2. Random shift of colors
+### Random shift of colors
 
 You can randomly shift the colors of your mind map:
 

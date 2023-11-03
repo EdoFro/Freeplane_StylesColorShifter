@@ -218,9 +218,10 @@ blockquote {
 <attribute NAME="MDHTargetRootPath" VALUE=""/>
 <node TEXT="README.MD" POSITION="bottom_or_right" ID="ID_1054457075" LINK="README.MD"/>
 <node TEXT="README.MD" STYLE_REF="MarkdownHelperNode" POSITION="bottom_or_right" ID="ID_1496826546" LINK="file:/C:/Users/efroh/GitHub/Freeplane_StylesColorShifter/README.MD">
+<attribute_layout NAME_WIDTH="120.75 pt" VALUE_WIDTH="41.25 pt"/>
 <attribute NAME="headersToUnderline" VALUE="0" OBJECT="org.freeplane.features.format.FormattedNumber|0|#0.####"/>
 <attribute NAME="hideFolded" VALUE="false"/>
-<attribute NAME="headerNumbering" VALUE="true"/>
+<attribute NAME="headerNumbering" VALUE="false"/>
 <attribute NAME="topHeadersNumbered" VALUE="false"/>
 <attribute NAME="topHeaderStartingNumber" VALUE="1" OBJECT="org.freeplane.features.format.FormattedNumber|1"/>
 <attribute NAME="fileLinksRelative" VALUE="true"/>
@@ -229,10 +230,13 @@ blockquote {
 <attribute NAME="ignoreHeaderNotes" VALUE="true"/>
 <attribute NAME="ignoreLeafDetails" VALUE="false"/>
 <attribute NAME="ignoreHeaderImageObjects" VALUE="false"/>
-<richcontent TYPE="NOTE" CONTENT-TYPE="plain/auto">
+<richcontent TYPE="NOTE">
 <text>= edofro.MarkDownHelper.MDH.document(node)</text></richcontent>
 <node TEXT="Styles Color Shifter" ID="ID_1673406844">
 <node TEXT="This add-on allows to &quot;shift&quot; the colors of the template to adapt the mind map to the user&apos;s taste and/or to the style required by the mindmaps content." ID="ID_1948288289"/>
+<node TEXT="IMPORTANT:" ID="ID_818817420">
+<node TEXT="This add-on requires **Freeplane v1.11.8-pre6 or newer**." ID="ID_1251568561"/>
+</node>
 <node TEXT="horizontal line" STYLE_REF="MarkdownHelperNode" ID="ID_256940880"><richcontent TYPE="NOTE">
 <text>-----</text></richcontent>
 </node>
