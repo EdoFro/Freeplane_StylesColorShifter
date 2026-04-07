@@ -160,8 +160,7 @@
       </li>
     </ul>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <node TEXT="description" POSITION="top_or_left" ID="ID_1305264076"><richcontent TYPE="NOTE">
 <html>
   <head>

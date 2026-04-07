@@ -57,7 +57,7 @@
 <font SIZE="24"/>
 <stylenode LOCALIZED_TEXT="styles.predefined" POSITION="bottom_or_right" STYLE="bubble">
 <stylenode LOCALIZED_TEXT="default" ID="ID_506805493" ICON_SIZE="12 pt" FORMAT_AS_HYPERLINK="false" COLOR="#484747" BACKGROUND_COLOR="#efefef" STYLE="bubble" SHAPE_HORIZONTAL_MARGIN="5 px" SHAPE_VERTICAL_MARGIN="2 px" NUMBERED="false" FORMAT="STANDARD_FORMAT" TEXT_ALIGN="DEFAULT" TEXT_WRITING_DIRECTION="LEFT_TO_RIGHT" BORDER_WIDTH_LIKE_EDGE="false" BORDER_WIDTH="1.9 px" BORDER_COLOR_LIKE_EDGE="false" BORDER_COLOR="#8fbcbb" BORDER_DASH_LIKE_EDGE="true" BORDER_DASH="SOLID" VGAP_QUANTITY="2 px" COMMON_HGAP_QUANTITY="14 pt" CHILD_NODES_LAYOUT="AUTO">
-<arrowlink SHAPE="CUBIC_CURVE" COLOR="#bf5d3f" WIDTH="2" TRANSPARENCY="200" DASH="" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_506805493" STARTINCLINATION="45 pt;-9.75 pt;" ENDINCLINATION="57 pt;30 pt;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
+<arrowlink SHAPE="CUBIC_CURVE" COLOR="#bf5d3f" WIDTH="2" TRANSPARENCY="200" DASH="" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_506805493" STARTINCLINATION="45 pt;-9 pt;" ENDINCLINATION="57 pt;30 pt;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
 <font NAME="Dialog" SIZE="10" BOLD="false" STRIKETHROUGH="false" ITALIC="false"/>
 <edge STYLE="horizontal" COLOR="#2e3440" WIDTH="1" DASH="SOLID"/>
 <richcontent TYPE="DETAILS" CONTENT-TYPE="plain/auto"/>
@@ -520,7 +520,7 @@ blockquote {
 <node TEXT="tests" FOLDED="true" ID="ID_58861595">
 <node TEXT="tests sin librerías" STYLE_REF="completedTask" FOLDED="true" ID="ID_1223904888">
 <node TEXT="test: genera muestrario de cambios hechos con HSLColor" ID="ID_1535166099">
-<arrowlink DESTINATION="ID_79134841" STARTINCLINATION="45 pt;0 pt;" ENDINCLINATION="102.75 pt;-15 pt;"/>
+<arrowlink DESTINATION="ID_79134841" STARTINCLINATION="45 pt;0 pt;" ENDINCLINATION="102.75 pt;-14.25 pt;"/>
 <richcontent TYPE="DETAILS">
 <html>
   <head>
@@ -2074,9 +2074,9 @@ blockquote {
 </node>
 <node TEXT="Random Color Shifter" ID="ID_1434305673">
 <icon BUILTIN="emoji-1F3B2"/>
-<arrowlink DESTINATION="ID_558204734" STARTINCLINATION="89.25 pt;0 pt;" ENDINCLINATION="132 pt;0 pt;"/>
-<arrowlink DESTINATION="ID_1604241442"/>
 <arrowlink DESTINATION="ID_58596334" STARTINCLINATION="100.5 pt;0 pt;" ENDINCLINATION="33 pt;0 pt;"/>
+<arrowlink DESTINATION="ID_1604241442"/>
+<arrowlink DESTINATION="ID_558204734" STARTINCLINATION="89.25 pt;0 pt;" ENDINCLINATION="132 pt;0 pt;"/>
 <richcontent TYPE="NOTE">
 <html>
   <head>
@@ -3063,7 +3063,7 @@ blockquote {
 </node>
 </node>
 <node TEXT="tests con librería HSLColor y map.getStyleNodes()" STYLE_REF="pendingTask" FOLDED="true" POSITION="bottom_or_right" ID="ID_593656837">
-<arrowlink DESTINATION="ID_58596334" STARTINCLINATION="46.5 pt;-27 pt;" ENDINCLINATION="64.5 pt;-12.75 pt;"/>
+<arrowlink DESTINATION="ID_58596334" STARTINCLINATION="46.5 pt;-26.25 pt;" ENDINCLINATION="64.5 pt;-12 pt;"/>
 <node TEXT="test: cambia hue de styleNodes" POSITION="bottom_or_right" ID="ID_1796584442"><richcontent TYPE="NOTE">
 <html>
   <head>
@@ -4585,8 +4585,7 @@ blockquote {
       Github
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node TEXT="Freeplane_StylesColorShifter" STYLE_REF="baseFolder" POSITION="bottom_or_right" ID="ID_1788530775" LINK=".">
 <attribute NAME="nameFilter" VALUE=""/>
@@ -7246,7 +7245,7 @@ justa a **dummy** markdown file
 </html></richcontent>
 </node>
 <node TEXT="new imported files" STYLE_REF="newFolderImport" ID="ID_478156398">
-<attribute NAME="log_MDI" VALUE="2" OBJECT="org.freeplane.features.format.FormattedObject|org.freeplane.plugin.script.proxy.ConvertibleNumber&amp;#x7c;2|number:decimal:#0.####"/>
+<attribute NAME="log_MDI" VALUE="2" OBJECT="org.freeplane.features.format.FormattedNumber|2"/>
 <richcontent TYPE="NOTE">
 <html>
   <head>
@@ -7311,8 +7310,7 @@ justa a **dummy** markdown file
       No failed operation in drive
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node TEXT="versión instalada en AddOns" STYLE_REF="locked" ID="ID_157019487"/>
 <node TEXT="Tareas" STYLE_REF="Organizador" ID="ID_1067967208">
